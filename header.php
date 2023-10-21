@@ -22,8 +22,7 @@
         "header header header"
         "main main main"
         "footer footer footer";
-      width: 100%;
-      height: 100%;
+      height: 94.5vh;
     }
 
     header {
