@@ -12,18 +12,18 @@
   <style>
     body {
       display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 81px 1fr 80px;
       grid-auto-columns: 1fr;
       grid-auto-rows: 1fr;
       gap: 0px 0px;
       grid-auto-flow: column;
       grid-template-areas:
-        "header"
-        "main"
-        "footer";
+        "header header header"
+        "main main main"
+        "footer footer footer";
       width: 100%;
-      height: 95.5vh;
+      height: 100%;
     }
 
     header {
@@ -34,8 +34,6 @@
       grid-auto-flow: row;
       grid-template-areas:
         "header__container";
-      justify-self: stretch;
-      align-self: stretch;
       grid-area: header;
     }
 
@@ -52,55 +50,70 @@
 
     .header__wrapper {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 0.5fr 1fr;
       grid-template-rows: 1fr;
       gap: 0px 0px;
       grid-auto-flow: row;
       grid-template-areas:
-        "header__brand header_navigation";
+        "header__brand header__navigation";
       grid-area: header__wrapper;
     }
 
     .header__brand {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 187px;
       grid-template-rows: 1fr;
       gap: 0px 0px;
       grid-auto-flow: row;
+      justify-content: center;
       grid-template-areas:
         "header__logo";
+      justify-self: stretch;
+      align-self: center;
       grid-area: header__brand;
     }
 
     .header__logo {
+      justify-self: center;
+      align-self: center;
       grid-area: header__logo;
     }
 
-    .header_navigation {
+    .header__navigation {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr;
       gap: 0px 0px;
       grid-auto-flow: row;
+      justify-content: space-evenly;
+      align-content: space-evenly;
       grid-template-areas:
-        "header__blog header__events header__search header_login";
-      grid-area: header_navigation;
+        "header__blog header__events header__search header__login";
+      grid-area: header__navigation;
     }
 
     .header__blog {
+      justify-self: center;
+      align-self: center;
       grid-area: header__blog;
     }
 
     .header__events {
+      justify-self: center;
+      align-self: center;
       grid-area: header__events;
     }
 
     .header__search {
+      justify-self: center;
+      align-self: center;
       grid-area: header__search;
     }
 
-    .header_login {
-      grid-area: header_login;
+    .header__login {
+      justify-self: center;
+      align-self: center;
+      grid-area: header__login;
     }
 
     main {
