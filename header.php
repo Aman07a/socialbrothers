@@ -9,131 +9,89 @@
 
   <?php wp_head(); ?>
 
+  <!-- Styling -->
   <style>
-    body {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 81px 1fr 80px;
-      grid-auto-columns: 1fr;
-      grid-auto-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: column;
-      grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer";
-      height: 94.5vh;
+    .header__row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 81px;
+      box-shadow: 0px 0px 10px 5px #d4d4d4;
+      opacity: 1;
     }
 
-    header {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      grid-template-areas:
-        "header__container";
-      grid-area: header;
-    }
-
-    .header__container {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      grid-template-areas:
-        "header__wrapper";
-      grid-area: header__container;
-    }
-
-    .header__wrapper {
-      display: grid;
-      grid-template-columns: 0.5fr 1fr;
-      grid-template-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      grid-template-areas:
-        "header__brand header__navigation";
-      grid-area: header__wrapper;
-    }
-
-    .header__brand {
-      display: grid;
-      grid-template-columns: 187px;
-      grid-template-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      justify-content: center;
-      grid-template-areas:
-        "header__logo";
-      justify-self: stretch;
-      align-self: center;
-      grid-area: header__brand;
+    .header__col {
+      flex: 1;
+      text-align: center;
     }
 
     .header__logo {
-      justify-self: center;
-      align-self: center;
-      grid-area: header__logo;
-    }
-
-    .header__navigation {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      justify-content: space-evenly;
-      align-content: space-evenly;
-      grid-template-areas:
-        "header__blog header__events header__search header__login";
-      grid-area: header__navigation;
+      opacity: 1;
+      width: 187px;
+      height: 40px;
     }
 
     .header__blog {
-      justify-self: center;
-      align-self: center;
-      grid-area: header__blog;
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 24px;
     }
 
     .header__events {
-      justify-self: center;
-      align-self: center;
-      grid-area: header__events;
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 24px;
     }
 
     .header__search {
-      justify-self: center;
-      align-self: center;
-      grid-area: header__search;
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "FontAwesome5Pro-Solid";
+      font-size: 21px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
     }
 
-    .header__login {
-      justify-self: center;
-      align-self: center;
-      grid-area: header__login;
+    .header__border {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      border: 3px solid rgba(20, 20, 20, 1);
+      opacity: 1;
+      background-color: rgba(255, 255, 255, 1);
+      width: 103px;
+      height: 49px;
     }
 
-    main {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      grid-template-areas:
-        "container";
-      grid-area: main;
-    }
-
-    .container {
-      grid-area: container;
-    }
-
-    footer {
-      grid-area: footer;
+    .header__border__login {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      line-height: 24px;
+      width: 42px;
+      height: 24px;
     }
   </style>
+
 </head>
 
 <body <?php body_class(); ?>>

@@ -3,6 +3,7 @@
 </main>
 
 <footer>
+  <!-- Footer Container -->
   <div class="container">
     Footer
   </div>
