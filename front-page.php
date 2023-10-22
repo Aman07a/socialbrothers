@@ -150,15 +150,15 @@ while (have_posts()) {
                         </form>
                     </div>
                     <p class="event-title">
-                        Werken bij Social Brothers, <br />
-                        volgens developer Ryence
+                        Het jaarlijkse bierpongtournooi van <br />
+                        Social Brothers
                     </p>
                     <p class="event-text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blogs" class="event-form">
+                    <form action="#events" class="event-form">
                         <button>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -179,15 +179,15 @@ while (have_posts()) {
                         </form>
                     </div>
                     <p class="event-title">
-                        Hoe stimuleer je winkelbezoek <br />
-                        met technologie?
+                        Bootcamp op de donderdagavond <br />
+                        met Biku
                     </p>
                     <p class="event-text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blogs" class="event-form">
+                    <form action="#events" class="event-form">
                         <button>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -208,15 +208,15 @@ while (have_posts()) {
                         </form>
                     </div>
                     <p class="event-title">
-                        Locatie gebaseerde pushberichten <br />
-                        sturen
+                        Blijf up to date met de <br />
+                        maandafsluiting
                     </p>
                     <p class="event-text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blogs" class="event-form">
+                    <form action="#events" class="event-form">
                         <button>
                             Lees meer
                             <i class="fa-sharp fa-solid fa-arrow-right"></i>
