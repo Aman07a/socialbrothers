@@ -542,8 +542,41 @@
       background-color: #fff;
     }
 
-    .container {
-      /* border: 1px solid black; */
+    footer {
+      overflow: hidden;
+      border: 1px solid black;
+      margin-top: 5rem;
+      background-color: #141414;
+      color: #EDEDED;
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer__row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 81px;
+      opacity: 1;
+    }
+
+    .footer__col {
+      flex: 1;
+      text-align: center;
+    }
+
+    .footer-text {
+      opacity: 1;
+      color: rgba(255, 255, 255, 1);
+      font-family: "Roboto-Regular", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 16px;
     }
   </style>
 
