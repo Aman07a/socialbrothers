@@ -45,6 +45,11 @@ while (have_posts()) {
                             adipiscing elit. Praesent luctus velit id ex <br />
                             vestibulum, in tristique risus tincidunt.
                         </p>
+                        <form action="#blogs" class="card-form">
+                            <button>
+                                Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -59,6 +64,11 @@ while (have_posts()) {
                             adipiscing elit. Praesent luctus velit id ex <br />
                             vestibulum, in tristique risus tincidunt.
                         </p>
+                        <form action="#blogs" class="card-form">
+                            <button>
+                                Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -73,6 +83,12 @@ while (have_posts()) {
                             adipiscing elit. Praesent luctus velit id ex <br />
                             vestibulum, in tristique risus tincidunt.
                         </p>
+                        <form action="#blogs" class="card-form">
+                            <button>
+                                Lees meer
+                                <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>

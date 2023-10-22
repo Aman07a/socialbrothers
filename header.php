@@ -280,6 +280,46 @@
       width: 349px;
       height: 72px;
     }
+
+    .card-form {
+      opacity: 1;
+      color: rgba(25, 25, 25, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 0.2px;
+      text-align: left;
+      line-height: 24px;
+      width: 103px;
+      height: 24px;
+    }
+
+    .card-form button {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 24px;
+      border: none;
+      background-color: #fff;
+    }
+
+    .fa-arrow-right {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "FontAwesome5Pro-Solid", sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.22px;
+      text-align: center;
+      margin-left: 10px;
+    }
   </style>
 
 </head>
