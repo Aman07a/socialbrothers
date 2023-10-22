@@ -73,6 +73,15 @@
       line-height: 24px;
     }
 
+    a {
+      text-decoration: none;
+      color: #141414;
+    }
+
+    a:hover {
+      color: #141414;
+    }
+
     /* Header */
     .header__row {
       display: flex;
