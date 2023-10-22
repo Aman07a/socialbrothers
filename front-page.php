@@ -26,12 +26,6 @@ while (have_posts()) {
                 <h3 class="blog-title">De nieuwste blogs</h3>
             </div>
 
-            <!-- Cards -->
-            <!-- Cards Image -->
-            <!-- Cards Type -->
-            <!-- Cards Desc -->
-            <!-- Cards Link -->
-
             <div class="row card-container">
                 <div class="col-md-4">
                     <div class="card">
