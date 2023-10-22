@@ -232,6 +232,56 @@
       padding-right: 38px;
     }
 
+    /* Small Banner */
+    .sm-banner {
+      overflow: hidden;
+      width: 100%;
+      height: 252px;
+      position: relative;
+    }
+
+    .sm-banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .sm-banner img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .sm-banner-cover {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      background: transparent;
+      padding: 20px;
+    }
+
+    .sm-banner-title {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 72px;
+      font-style: normal;
+      letter-spacing: 0;
+      line-height: 72px;
+      color: #FFFFFF;
+      text-align: center;
+      vertical-align: top;
+      width: 730px;
+      margin-top: 10px;
+      margin-left: 38px;
+    }
+
     .blog-container {
       overflow: hidden;
       /* border: 1px solid black; */
