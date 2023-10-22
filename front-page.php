@@ -30,6 +30,13 @@ while (have_posts()) {
                 <div class="col-md-4">
                     <div class="card">
                         <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" class="card-img-top" alt="">
+                        <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
+                            <form class="card-type-form card-type-interview">
+                                <button class="card-type-button" disabled>
+                                    interview
+                                </button>
+                            </form>
+                        </div>
                         <p class="card-title">
                             Werken bij Social Brothers, <br />
                             volgens developer Ryence
@@ -49,6 +56,13 @@ while (have_posts()) {
                 <div class="col-md-4">
                     <div class="card">
                         <img src="<?php echo get_template_directory_uri() . '/assets/images/c9affda65b1530ebfde2cb412de6009da9e6a477.jpg'; ?>" class="card-img-top" alt="">
+                        <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
+                            <form class="card-type-form card-type-whitepaper">
+                                <button class="card-type-button" disabled>
+                                    whitepaper
+                                </button>
+                            </form>
+                        </div>
                         <p class="card-title">
                             Hoe stimuleer je winkelbezoek <br />
                             met technologie?
@@ -68,6 +82,13 @@ while (have_posts()) {
                 <div class="col-md-4">
                     <div class="card">
                         <img src="<?php echo get_template_directory_uri() . '/assets/images/a8eb6babda033968f38e01469c8e86b536a9008f.jpg'; ?>" class="card-img-top" alt="">
+                        <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
+                            <form class="card-type-form card-type-blog">
+                                <button class="card-type-button" disabled>
+                                    blog
+                                </button>
+                            </form>
+                        </div>
                         <p class="card-title">
                             Locatie gebaseerde pushberichten <br />
                             sturen

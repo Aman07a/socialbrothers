@@ -252,6 +252,50 @@
       object-fit: cover;
     }
 
+    .card-overlay {
+      height: 15rem;
+    }
+
+    .card-type-form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      opacity: 1;
+      background-color: rgba(237, 237, 237, 1);
+      height: 32px;
+      overflow: hidden;
+    }
+
+
+    .card-type-interview {
+      width: 94px;
+    }
+
+    .card-type-whitepaper {
+      width: 94px;
+    }
+
+    .card-type-blog {
+      width: 64px;
+    }
+
+    .card-type-button {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 24px;
+      text-transform: uppercase;
+      border: none;
+      width: auto;
+      height: 24px;
+    }
+
     .card-title {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
