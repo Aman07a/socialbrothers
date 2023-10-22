@@ -19,8 +19,8 @@ while (have_posts()) {
     </div>
 
 
-    <!-- Blog -->
     <div class="container">
+        <!-- Blog -->
         <div class="blog-container">
             <div class="blog-header">
                 <h3 class="blog-title">De nieuwste blogs</h3>
@@ -107,6 +107,11 @@ while (have_posts()) {
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Events -->
+        <div class="event-container">
+
         </div>
     </div>
 <?php
