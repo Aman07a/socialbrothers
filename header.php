@@ -139,8 +139,9 @@
       vertical-align: top;
       width: 730px;
       height: 144px;
-      margin-top: 20px;
-      margin-left: 65px;
+      margin-top: 10px;
+      margin-left: 38px;
+      margin-bottom: -16px;
     }
 
     .lg-banner-desc {
@@ -155,7 +156,13 @@
       vertical-align: top;
       width: 823px;
       height: 108px;
-      margin-bottom: 5px;
+      margin-top: 58px;
+      margin-left: -38px;
+      padding-right: 38px;
+    }
+
+    .container {
+      border: 1px solid black;
     }
   </style>
 
