@@ -364,6 +364,187 @@
       text-align: center;
       margin-left: 10px;
     }
+
+    .filter-container {
+      overflow: hidden;
+      /* border: 1px solid black; */
+    }
+
+    .event-header {
+      margin-top: 3.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Filter */
+    .filter {
+      display: flex;
+      gap: 10px;
+      /* border: 1px solid black; */
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .event-filter-form {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      opacity: 1;
+      background-color: rgba(237, 237, 237, 1);
+      width: auto;
+      height: 32px;
+      padding: 10px;
+    }
+
+    .event-filter-button {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: 'Roboto-Medium', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 24px;
+      text-transform: uppercase;
+      border: none;
+      width: auto;
+      height: 24px;
+    }
+
+    .event-filter-selected {
+      background-color: #FF470B;
+      border: none;
+    }
+
+    .event-button-selected {
+      color: #FFFFFF;
+      background-color: #FF470B;
+    }
+
+    .event-filter-form:not(.event-filter-selected) {
+      background-color: white;
+      border: 1px solid #EDEDED;
+    }
+
+    .event-filter-button:not(.event-button-selected) {
+      background-color: white;
+      color: #141414;
+    }
+
+    /* Events */
+    .event-container {
+      overflow: hidden;
+      /* border: 1px solid black; */
+    }
+
+    .event-date {
+      opacity: 1;
+      color: rgba(180, 180, 180, 1);
+      font-family: "OpenSans", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      width: 80px;
+      height: 17px;
+      margin-top: 10px;
+      margin-bottom: -10px;
+    }
+
+    .event-overlay {
+      height: 15rem;
+    }
+
+    .event-type-form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      opacity: 1;
+      background-color: rgba(237, 237, 237, 1);
+      width: 94px;
+      height: 32px;
+      overflow: hidden;
+    }
+
+    .event-type-button {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 24px;
+      text-transform: uppercase;
+      border: none;
+      width: auto;
+      height: 24px;
+    }
+
+    .event-title {
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0.26px;
+      text-align: left;
+      width: 348px;
+      height: 48px;
+      line-height: 1.4rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .event-text {
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "OpenSans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.2px;
+      text-align: left;
+      width: 349px;
+      height: 72px;
+    }
+
+    .event-form {
+      opacity: 1;
+      color: rgba(25, 25, 25, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 0.2px;
+      text-align: left;
+      line-height: 24px;
+      width: 103px;
+      height: 24px;
+    }
+
+    .event-form button {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 24px;
+      border: none;
+      background-color: #fff;
+    }
+
+    .container {
+      /* border: 1px solid black; */
+    }
   </style>
 
 </head>

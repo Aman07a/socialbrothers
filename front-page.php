@@ -109,10 +109,123 @@ while (have_posts()) {
             </div>
         </div>
 
-        <!-- Events -->
-        <div class="event-container">
+        <!-- Events: Filter -->
+        <div class="filter-container">
+            <div class="event-header">
+                <h3 class="event-title">Opkomende events</h3>
+            </div>
 
+            <div class="filter">
+                <form action="#utrecht" class="event-filter-form event-filter-selected">
+                    <button class="event-filter-button event-button-selected">
+                        events utrecht
+                    </button>
+                </form>
+                <form action="#rotterdam" class="event-filter-form">
+                    <button class="event-filter-button">
+                        events rotterdam
+                    </button>
+                </form>
+                <form action="#leiden" class="event-filter-form">
+                    <button class="event-filter-button">
+                        events leiden
+                    </button>
+                </form>
+            </div>
         </div>
+
+        <!-- Events -->
+        <div class="row event-container">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
+                    <div class="event-date">
+                        01-01-2023
+                    </div>
+                    <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
+                        <form class="event-type-form">
+                            <button class="event-type-button" disabled>
+                                utrecht
+                            </button>
+                        </form>
+                    </div>
+                    <p class="event-title">
+                        Werken bij Social Brothers, <br />
+                        volgens developer Ryence
+                    </p>
+                    <p class="event-text">
+                        Lorem ipsum dolor sit amet, consectetur <br />
+                        adipiscing elit. Praesent luctus velit id ex <br />
+                        vestibulum, in tristique risus tincidunt.
+                    </p>
+                    <form action="#blogs" class="event-form">
+                        <button>
+                            Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" class="event-img-top" alt="">
+                    <div class="event-date">
+                        01-01-2023
+                    </div>
+                    <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
+                        <form class="event-type-form">
+                            <button class="event-type-button" disabled>
+                                utrecht
+                            </button>
+                        </form>
+                    </div>
+                    <p class="event-title">
+                        Hoe stimuleer je winkelbezoek <br />
+                        met technologie?
+                    </p>
+                    <p class="event-text">
+                        Lorem ipsum dolor sit amet, consectetur <br />
+                        adipiscing elit. Praesent luctus velit id ex <br />
+                        vestibulum, in tristique risus tincidunt.
+                    </p>
+                    <form action="#blogs" class="event-form">
+                        <button>
+                            Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="event-img-top" alt="">
+                    <div class="event-date">
+                        01-01-2023
+                    </div>
+                    <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
+                        <form class="event-type-form">
+                            <button class="event-type-button" disabled>
+                                utrecht
+                            </button>
+                        </form>
+                    </div>
+                    <p class="event-title">
+                        Locatie gebaseerde pushberichten <br />
+                        sturen
+                    </p>
+                    <p class="event-text">
+                        Lorem ipsum dolor sit amet, consectetur <br />
+                        adipiscing elit. Praesent luctus velit id ex <br />
+                        vestibulum, in tristique risus tincidunt.
+                    </p>
+                    <form action="#blogs" class="event-form">
+                        <button>
+                            Lees meer
+                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 <?php
 }
