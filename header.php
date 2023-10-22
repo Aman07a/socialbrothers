@@ -11,12 +11,13 @@
 
   <!-- Styling -->
   <style>
+    /* Header */
     .header__row {
       display: flex;
       align-items: center;
       justify-content: space-between;
       height: 81px;
-      box-shadow: 0px 0px 10px 5px #d4d4d4;
+      /* box-shadow: 0px 0px 10px 5px #d4d4d4; */
       opacity: 1;
     }
 
@@ -89,6 +90,73 @@
       line-height: 24px;
       width: 42px;
       height: 24px;
+    }
+
+    /* Large Banner */
+    .lg-banner {
+      overflow: hidden;
+      width: 100%;
+      height: 601px;
+      position: relative;
+    }
+
+    .lg-banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .lg-banner img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .lg-banner-cover {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      background: transparent;
+      padding: 20px;
+    }
+
+    .lg-banner-title {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 72px;
+      font-style: normal;
+      letter-spacing: 0;
+      line-height: 72px;
+      color: #FFFFFF;
+      text-align: center;
+      vertical-align: top;
+      width: 730px;
+      height: 144px;
+    }
+
+    .lg-banner-desc {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      font-style: normal;
+      letter-spacing: 0;
+      line-height: 24px;
+      color: #FFFFFF;
+      text-align: center;
+      vertical-align: top;
+      width: 823px;
+      height: 108px;
+    }
+
+    .lg-banner-title h2 {
+      margin-bottom: -10px;
     }
   </style>
 
