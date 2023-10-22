@@ -17,6 +17,20 @@ while (have_posts()) {
             </p>
         </div>
     </div>
+
+
+    <!-- Blog -->
+    <div class="container">
+        <div class="blog-header">
+            <h2 class="blog-title">De nieuwste blogs</h2>
+        </div>
+
+        <!-- Cards -->
+        <!-- Cards Image -->
+        <!-- Cards Type -->
+        <!-- Cards Desc -->
+        <!-- Cards Link -->
+    </div>
 <?php
 }
 
