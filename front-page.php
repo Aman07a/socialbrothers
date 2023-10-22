@@ -21,15 +21,62 @@ while (have_posts()) {
 
     <!-- Blog -->
     <div class="container">
-        <div class="blog-header">
-            <h2 class="blog-title">De nieuwste blogs</h2>
-        </div>
+        <div class="blog-container">
+            <div class="blog-header">
+                <h3 class="blog-title">De nieuwste blogs</h3>
+            </div>
 
-        <!-- Cards -->
-        <!-- Cards Image -->
-        <!-- Cards Type -->
-        <!-- Cards Desc -->
-        <!-- Cards Link -->
+            <!-- Cards -->
+            <!-- Cards Image -->
+            <!-- Cards Type -->
+            <!-- Cards Desc -->
+            <!-- Cards Link -->
+
+            <div class="row card-container">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" class="card-img-top" alt="">
+                        <p class="card-title">
+                            Werken bij Social Brothers, <br />
+                            volgens developer Ryence
+                        </p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur <br />
+                            adipiscing elit. Praesent luctus velit id ex <br />
+                            vestibulum, in tristique risus tincidunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/c9affda65b1530ebfde2cb412de6009da9e6a477.jpg'; ?>" class="card-img-top" alt="">
+                        <p class="card-title">
+                            Hoe stimuleer je winkelbezoek <br />
+                            met technologie?
+                        </p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur <br />
+                            adipiscing elit. Praesent luctus velit id ex <br />
+                            vestibulum, in tristique risus tincidunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/a8eb6babda033968f38e01469c8e86b536a9008f.jpg'; ?>" class="card-img-top" alt="">
+                        <p class="card-title">
+                            Locatie gebaseerde pushberichten <br />
+                            sturen
+                        </p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur <br />
+                            adipiscing elit. Praesent luctus velit id ex <br />
+                            vestibulum, in tristique risus tincidunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 <?php
 }

@@ -11,6 +11,68 @@
 
   <!-- Styling -->
   <style>
+    /* Basics */
+    h1 {
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.166329763986014);
+      opacity: 1;
+      color: rgba(255, 255, 255, 1);
+      font-family: "Roboto-Bold", sans-serif;
+      font-size: 72px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 72px;
+    }
+
+    h2 {
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.166329763986014);
+      opacity: 1;
+      color: rgba(255, 255, 255, 1);
+      font-family: "Roboto-Bold", sans-serif;
+      font-size: 72px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 72px;
+    }
+
+    h3 {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "Roboto-Bold", sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 56px;
+    }
+
+    h4 {
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 21px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 0.26px;
+      text-align: left;
+    }
+
+    h5 {
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 24px;
+    }
+
     /* Header */
     .header__row {
       display: flex;
@@ -161,8 +223,62 @@
       padding-right: 38px;
     }
 
-    .container {
-      border: 1px solid black;
+    .blog-container {
+      overflow: hidden;
+      /* border: 1px solid black; */
+    }
+
+    .blog-header {
+      margin-top: 3.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      width: 348px;
+      height: 442px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      border: none;
+    }
+
+    .card img {
+      border-radius: 6px;
+      opacity: 1;
+      background-size: 100%;
+      width: 348px;
+      height: 240px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+
+    .card-title {
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0.26px;
+      text-align: left;
+      width: 348px;
+      height: 48px;
+      line-height: 1.4rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "OpenSans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.2px;
+      text-align: left;
+      width: 349px;
+      height: 72px;
     }
   </style>
 
