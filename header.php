@@ -167,6 +167,63 @@
       height: 24px;
     }
 
+    /* Popup */
+    .popup-container {
+      /* display: none; */
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+
+      position: absolute;
+      top: 72%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid #ccc;
+      z-index: 9999;
+
+      width: 918px;
+      height: 520px;
+      border-radius: 6px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+      opacity: 1;
+      background-color: rgba(255, 255, 255, 1);
+    }
+
+    .popup-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .popup-button-close {
+      cursor: pointer;
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "FontAwesome5Pro-Solid";
+      font-size: 36px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.45px;
+      text-align: center;
+      width: 26px;
+      height: 37px;
+    }
+
+    .popup-title {}
+
+    .popup-text {}
+
+    .popup-form {}
+
+    .popup-input-border {}
+
+    .popup-input {}
+
+    .popup-button-border {}
+
+    .popup-button {}
+
     /* Large Banner */
     .lg-banner {
       overflow: hidden;
