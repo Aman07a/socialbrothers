@@ -212,7 +212,7 @@
       width: 730px;
       height: 122px;
       margin: 0 auto;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
     }
 
     .popup-title {
@@ -272,7 +272,7 @@
       color: rgba(25, 25, 25, 1);
       font-family: "Roboto-Medium", sans-serif;
       font-size: 16px;
-      font-weight: 500;
+      font-weight: 600;
       font-style: normal;
       letter-spacing: 0.2px;
       text-align: left;
