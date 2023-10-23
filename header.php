@@ -800,6 +800,7 @@
       background-color: rgba(255, 255, 255, 1);
       width: 441px;
       height: 48px;
+      padding: 10px;
     }
 
     .login-input {
@@ -816,6 +817,7 @@
       height: 24px;
       border: none;
       background-color: #FFFFFF;
+      outline: none;
     }
 
     .login-button-border {
