@@ -412,7 +412,7 @@
     }
 
     .card-overlay {
-      height: 15rem;
+      height: 15.4rem;
     }
 
     .card-type-form {
@@ -424,11 +424,11 @@
       background-color: rgba(237, 237, 237, 1);
       height: 32px;
       overflow: hidden;
+      margin-left: -5px;
     }
 
-
     .card-type-interview {
-      width: 94px;
+      width: 85px !important;
     }
 
     .card-type-whitepaper {
@@ -614,7 +614,7 @@
     }
 
     .event-overlay {
-      height: 15rem;
+      height: 15.4rem;
     }
 
     .event-type-form {
@@ -627,6 +627,7 @@
       width: 94px;
       height: 32px;
       overflow: hidden;
+      margin-left: -5px;
     }
 
     .event-type-button {
@@ -712,7 +713,7 @@
       margin-bottom: 1rem;
     }
 
-    .event-detail-date {
+    .event-detail-header-date {
       opacity: 1;
       color: #141414;
       font-family: "OpenSans", sans-serif;
@@ -726,6 +727,21 @@
       margin-top: 5px;
       margin-bottom: -10px;
       margin-left: 10px;
+    }
+
+    .event-detail-date {
+      opacity: 1;
+      color: rgba(180, 180, 180, 1);
+      font-family: "OpenSans", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      width: 80px;
+      height: 17px;
+      margin-top: 10px;
+      margin-bottom: -5px;
     }
 
     /* Footer */

@@ -143,7 +143,7 @@ while (have_posts()) {
                         01-01-2023
                     </div>
                     <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
-                        <form class="event-type-form">
+                        <form class="event-type-form card-type-interview">
                             <button class="event-type-button" disabled>
                                 utrecht
                             </button>
@@ -172,7 +172,7 @@ while (have_posts()) {
                         01-01-2023
                     </div>
                     <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
-                        <form class="event-type-form">
+                        <form class="event-type-form card-type-interview">
                             <button class="event-type-button" disabled>
                                 utrecht
                             </button>
@@ -201,7 +201,7 @@ while (have_posts()) {
                         01-01-2023
                     </div>
                     <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
-                        <form class="event-type-form">
+                        <form class="event-type-form card-type-interview">
                             <button class="event-type-button" disabled>
                                 utrecht
                             </button>
