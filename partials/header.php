@@ -22,20 +22,20 @@
       </div>
       <div class="col header__col">
       </div>
-      <div class="col header__col header__blog">
-        <a href="http://sb-wp-case.local/archive-blog/">Blog</a>
-      </div>
+      <a href="/archive-blog" class="col header__col header__blog">
+        Blog
+      </a>
       <div class="col header__col header__events">
         Events
       </div>
       <div class="col header__col header__search">
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
-      <div class="col header__col header__border">
+      <a href="login" class="col header__col header__border">
         <div class="header__border__login">
-          Log in
+          Login
         </div>
-      </div>
+      </a>
       <div class="col header__col hidden">
       </div>
     </div>
