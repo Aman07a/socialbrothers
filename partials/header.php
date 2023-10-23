@@ -23,7 +23,9 @@
         Events
       </div>
       <div class="col header__col header__search">
-        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        <button type="button" class="border-0 modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
       </div>
       <?php if (is_user_logged_in()) { ?>
         <a href="<?php echo wp_logout_url(home_url('/')); ?>" class="col header__col header__border">
@@ -44,7 +46,36 @@
   </div>
 </header>
 
-<div class="popup-container">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content popup-container border-0">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="btn-close popup-button-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="popup-header">
+        <div class="popup-title">
+          Waar ben je naar op zoek?
+        </div>
+      </div>
+      <div class="popup-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent <br />
+        luctus velit id ex vestibulum, in tristique risus tincidunt.
+      </div>
+      <form action="" class="popup-form">
+        <div class="popup-input-border">
+          <input type="text" name="search" id="search" class="popup-input" placeholder="Ik ben op zoek naar ..." disabled>
+        </div>
+        <div class="popup-button-border">
+          <button class="popup-button">
+            Zoeken
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="popup-container">
   <div class="popup-header">
     <div class="popup-title">
       Waar ben je naar op zoek?
@@ -67,6 +98,6 @@
       </button>
     </div>
   </div>
-</div>
+</div> -->
 
 <main>
