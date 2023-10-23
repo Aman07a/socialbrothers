@@ -158,7 +158,7 @@ while (have_posts()) {
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#events" class="event-form">
+                    <form action="/event1" class="event-form">
                         <button>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>

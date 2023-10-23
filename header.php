@@ -269,6 +269,39 @@
       left: 0;
     }
 
+    /* Medium Width Banner */
+    .md-w-banner {
+      overflow: hidden;
+      width: 100%;
+      height: 463px;
+      position: relative;
+    }
+
+    .md-w-banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .md-w-banner .image-container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .md-w-banner .image-container img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: -280px;
+      left: 0;
+    }
+
     /* Test: Medium Banner */
     /* .md-banner img {
       width: 100%;
