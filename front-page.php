@@ -29,7 +29,7 @@ while (have_posts()) {
             <div class="row card-container">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" class="card-img-top" alt="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" class="card-img-top cover" alt="">
                         <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                             <form class="card-type-form card-type-interview">
                                 <button class="card-type-button" disabled>
