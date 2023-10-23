@@ -1024,6 +1024,44 @@
       background-color: #FFFFFF;
     }
 
+    /* Search */
+    .search-banner-container {
+      position: absolute;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.54);
+    }
+
+    .search-banner-cover {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #FFFFFF;
+      background: transparent;
+      padding: 20px;
+    }
+
+    .search-banner-title {
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16633);
+      opacity: 1;
+      font-family: 'Roboto-Bold', sans-serif;
+      font-weight: 700;
+      font-size: 72px;
+      font-style: normal;
+      letter-spacing: 0;
+      line-height: 72px;
+      color: rgba(255, 255, 255, 1);
+      text-align: center;
+      vertical-align: top;
+      width: 1108px;
+      height: 72px;
+      margin-top: 10px;
+      margin-left: 38px;
+    }
+
     /* Footer */
     footer {
       overflow: hidden;
