@@ -75,29 +75,4 @@
   </div>
 </div>
 
-<!-- <div class="popup-container">
-  <div class="popup-header">
-    <div class="popup-title">
-      Waar ben je naar op zoek?
-    </div>
-    <div class="popup-button-close">
-      <i class="fa-solid fa-x"></i>
-    </div>
-  </div>
-  <div class="popup-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent <br />
-    luctus velit id ex vestibulum, in tristique risus tincidunt.
-  </div>
-  <div class="popup-form">
-    <div class="popup-input-border">
-      <input type="text" name="search" id="search" class="popup-input" placeholder="Ik ben op zoek naar ..." disabled>
-    </div>
-    <div class="popup-button-border">
-      <button class="popup-button">
-        Zoeken
-      </button>
-    </div>
-  </div>
-</div> -->
-
 <main>
