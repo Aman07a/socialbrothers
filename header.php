@@ -55,7 +55,7 @@
       color: rgba(0, 0, 0, 1);
       font-family: "Roboto-Medium", sans-serif;
       font-size: 21px;
-      font-weight: 500;
+      font-weight: 600;
       font-style: normal;
       letter-spacing: 0.26px;
       text-align: left;
@@ -354,6 +354,7 @@
       margin-bottom: 1rem;
     }
 
+    /* Card */
     .card {
       width: 348px;
       height: 442px;
@@ -486,6 +487,7 @@
       margin-left: 10px;
     }
 
+    /* Filter */
     .filter-container {
       overflow: hidden;
       /* border: 1px solid black; */
@@ -496,7 +498,6 @@
       margin-bottom: 0.5rem;
     }
 
-    /* Filter */
     .filter {
       display: flex;
       gap: 10px;
@@ -663,6 +664,9 @@
       background-color: #fff;
     }
 
+    /* Blog Detail */
+
+    /* Footer */
     footer {
       overflow: hidden;
       border: 1px solid black;
