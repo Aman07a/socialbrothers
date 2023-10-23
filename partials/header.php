@@ -61,7 +61,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent <br />
         luctus velit id ex vestibulum, in tristique risus tincidunt.
       </div>
-      <form action="" class="popup-form">
+      <form action="/search-results" class="popup-form">
         <div class="popup-input-border">
           <input type="text" name="search" id="search" class="popup-input" placeholder="Ik ben op zoek naar ..." disabled>
         </div>
