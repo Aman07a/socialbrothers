@@ -611,7 +611,7 @@
       width: 85px !important;
     }
 
-    .card-type-#FFFFFFpaper {
+    .card-type-whitepaper {
       width: 94px;
     }
 
