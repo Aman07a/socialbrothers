@@ -25,12 +25,13 @@ get_header();
         dis parturient montes nascetur ridiculus mus mauris vitae ultricies.
     </p>
 
-    <form action="#loginUser" method="post">
+    <form action="<?php echo wp_login_url(); ?>" method="post">
+        <input type="hidden" name="redirect_to" value="<?php echo esc_url(home_url('/')); ?>">
         <div class="mb-4 login-input-border">
-            <input type="text" id="username" name="username" class="login-input" placeholder="Gebruikersnaam">
+            <input type="text" id="username" name="log" class="login-input" placeholder="Gebruikersnaam">
         </div>
         <div class="mb-4 login-input-border">
-            <input type="password" id="password" name="password" class="login-input" placeholder="Wachtwoord">
+            <input type="password" id="password" name="pwd" class="login-input" placeholder="Wachtwoord">
         </div>
         <div class="mb-4 login-button-border">
             <button type="submit" class="login-button">Login</button>
