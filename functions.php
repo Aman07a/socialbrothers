@@ -50,3 +50,54 @@ function custom_page_rewrite_rule()
 }
 
 add_action('init', 'custom_page_rewrite_rule');
+
+function custom_rewrite_rules()
+{
+    add_rewrite_rule('^blogs/([^/]+)/?$', 'index.php?pagename=blogs&blog_slug=$matches[1]', 'top');
+}
+add_action('init', 'custom_rewrite_rules');
+
+function custom_rewrite_tag()
+{
+    add_rewrite_tag('%blog_slug%', '([^/]+)');
+}
+add_action('init', 'custom_rewrite_tag');
+
+// function custom_rewrite_rules()
+// {
+//     // For the "blogs" section
+//     add_rewrite_rule('^blogs/([^/]+)/?$', 'index.php?pagename=blogs&blog_slug=$matches[1]', 'top');
+
+//     // For individual blog posts
+//     add_rewrite_rule('^blog/([^/]+)-(\d+)/?$', 'index.php?name=$matches[1]&page_id=$matches[2]', 'top');
+// }
+// add_action('init', 'custom_rewrite_rules');
+
+// function custom_rewrite_tag()
+// {
+//     // For the "blogs" section
+//     add_rewrite_tag('%blog_slug%', '([^/]+)');
+
+//     // For individual blog posts
+//     add_rewrite_tag('%custom_name%', '([^/]+)-(\d+)');
+// }
+// add_action('init', 'custom_rewrite_tag');
+
+// function update_permalink_on_save($post_id)
+// {
+//     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return $post_id;
+
+//     if ($post_id) {
+//         $post = get_post($post_id);
+//         if ($post) {
+//             $post_name = sanitize_title($post->post_name);
+//             $new_permalink = "blog/{$post_name}-{$post_id}/";
+//             $new_slug = "{$post_name}-{$post_id}";
+//             wp_update_post(array(
+//                 'ID' => $post_id,
+//                 'post_name' => $new_slug,
+//             ));
+//         }
+//     }
+// }
+// add_action('save_post', 'update_permalink_on_save');
