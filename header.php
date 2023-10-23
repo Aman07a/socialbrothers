@@ -525,6 +525,38 @@
       margin-left: 38px;
     }
 
+    /* Small Width Banner */
+    .sm-w-banner {
+      overflow: hidden;
+      width: 100%;
+      height: 252px;
+      position: relative;
+    }
+
+    .sm-w-banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      filter: blur(8px);
+    }
+
+    .sm-w-banner .image-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .sm-w-banner .image-container img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: -388px;
+      left: 0;
+    }
+
     .blog-container {
       overflow: hidden;
       /* border: 1px solid black; */
