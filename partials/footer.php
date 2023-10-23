@@ -28,3 +28,15 @@
     </div>
   </div>
 </footer>
+
+<!-- JavaScript to handle the popup -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const searchIcon = document.getElementById("search-icon");
+    const popup = document.querySelector(".popup-container");
+
+    searchIcon.addEventListener("click", function() {
+      popup.style.display = "block";
+    });
+  });
+</script>
