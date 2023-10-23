@@ -232,6 +232,68 @@
       padding-right: 38px;
     }
 
+    /* Original Image */
+    /* Width: 2000px */
+    /* Height: 3000px */
+
+    /* Medium Banner */
+    .md-banner {
+      overflow: hidden;
+      width: 100%;
+      height: 450px;
+      position: relative;
+    }
+
+    .md-banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .md-banner .image-container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .md-banner .image-container img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: -145%;
+      left: 0;
+    }
+
+    /* Test: Medium Banner */
+    /* .md-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 35%;
+    } */
+
+    /* .md-banner .img-container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .md-banner .img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translateX(-50%);
+    } */
+
     /* Small Banner */
     .sm-banner {
       overflow: hidden;
