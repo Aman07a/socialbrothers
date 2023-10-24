@@ -192,7 +192,7 @@ get_header();
             <!-- Row 3 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/a11b35bea09068a555b885ee67a0275905f8e845.jpg'; ?>" class="card-img-top" alt="">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/9a4c5e7ca7beb10f9911b04ae5a9019ca806488d.jpg'; ?>" class="card-img-top" alt="">
                     <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                         <form class="card-type-form card-type-interview">
                             <button class="card-type-button" disabled>
