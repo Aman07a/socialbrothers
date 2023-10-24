@@ -102,7 +102,7 @@ get_header();
                                     </button>
                                 </form>
                             </div>
-                            <div class="event-detail-date">
+                            <div class="event-date">
                                 01-01-2023
                             </div>
                             <p class="card-title">
@@ -131,7 +131,7 @@ get_header();
                                     </button>
                                 </form>
                             </div>
-                            <div class="event-detail-date">
+                            <div class="event-date">
                                 01-01-2023
                             </div>
                             <p class="card-title">
@@ -160,7 +160,7 @@ get_header();
                                     </button>
                                 </form>
                             </div>
-                            <div class="event-detail-date">
+                            <div class="event-date">
                                 01-01-2023
                             </div>
                             <p class="card-title">
