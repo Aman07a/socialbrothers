@@ -23,10 +23,32 @@
         Events
       </a>
       <div class="col header__col header__search">
-        <button type="button" class="border-0 modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="border-0 modal-button" id="modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
+      <?php if (!is_front_page()) { ?>
+        <script>
+          const modalButton = document.getElementById("modal-button");
+
+          if (modalButton) {
+            modalButton.addEventListener("click", function(event) {
+              if (!isFrontPage()) {
+                window.location.href = '/';
+              }
+            });
+          }
+
+          function isFrontPage() {
+            return window.location.pathname === "/";
+          }
+
+          if (!isFrontPage()) {
+            modalButton.removeAttribute("data-bs-toggle");
+            modalButton.removeAttribute("data-bs-target");
+          }
+        </script>
+      <?php } ?>
       <?php if (is_user_logged_in()) { ?>
         <a href="<?php echo wp_logout_url(home_url('/')); ?>" class="col header__col header__border">
           <div class="header__border__login">
