@@ -311,6 +311,11 @@
       background-color: transparent;
     }
 
+    /* Gap Between Elements Rows */
+    .row-gap {
+      row-gap: 6rem;
+    }
+
     /* Large Banner */
     .lg-banner {
       overflow: hidden;
@@ -710,6 +715,11 @@
     }
 
     /* Events */
+    .event-archive-header {
+      margin-top: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+
     .event-date {
       opacity: 1;
       color: rgba(180, 180, 180, 1);

@@ -8,17 +8,6 @@ defined('ABSPATH') || exit('Forbidden');
 get_header();
 ?>
 
-<style>
-    .event-archive-header {
-        margin-top: 1.6rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .row-gap {
-        row-gap: 6rem;
-    }
-</style>
-
 <!-- Small Banner -->
 <div class="sm-banner">
     <img src="<?php echo get_template_directory_uri() . '/assets/images/719d7119b323a629a782fa92dd43e21e888590ab.jpg'; ?>" alt="Image" class="img-fluid">

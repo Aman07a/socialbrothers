@@ -22,7 +22,7 @@ get_header();
         <div class="blog-header">
         </div>
 
-        <div class="row card-container">
+        <div class="row card-container row-gap">
             <!-- Row 1 -->
             <div class="col-md-4">
                 <div class="card">
