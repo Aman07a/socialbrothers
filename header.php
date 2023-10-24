@@ -16,7 +16,7 @@
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.166329763986014);
       opacity: 1;
       color: rgba(255, 255, 255, 1);
-      font-family: "Roboto-Bold", sans-serif;
+      font-family: 'Roboto-Bold', sans-serif;
       font-size: 72px;
       font-weight: 700;
       font-style: normal;
@@ -29,7 +29,7 @@
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.166329763986014);
       opacity: 1;
       color: rgba(255, 255, 255, 1);
-      font-family: "Roboto-Bold", sans-serif;
+      font-family: 'Roboto-Bold', sans-serif;
       font-size: 72px;
       font-weight: 700;
       font-style: normal;
@@ -41,7 +41,7 @@
     h3 {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Bold", sans-serif;
+      font-family: 'Roboto-Bold', sans-serif;
       font-size: 36px;
       font-weight: 700;
       font-style: normal;
@@ -53,7 +53,7 @@
     h4 {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 21px;
       font-weight: 600;
       font-style: normal;
@@ -64,7 +64,7 @@
     h5 {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 18px;
       font-weight: 500;
       font-style: normal;
@@ -84,7 +84,7 @@
 
     /* Header */
     header {
-      background-color: #FFFFFF;
+      background-color: #ffffff;
     }
 
     .header__row {
@@ -110,7 +110,7 @@
     .header__blog {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 18px;
       font-weight: 600;
       font-style: normal;
@@ -122,7 +122,7 @@
     .header__events {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 18px;
       font-weight: 600;
       font-style: normal;
@@ -134,7 +134,7 @@
     .header__search {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "FontAwesome5Pro-Solid";
+      font-family: 'FontAwesome5Pro-Solid';
       font-size: 21px;
       font-weight: 400;
       font-style: normal;
@@ -157,7 +157,7 @@
     .header__border__login {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 14px;
       font-weight: 600;
       font-style: normal;
@@ -169,7 +169,7 @@
 
     /* Popup / Modal */
     .modal-button {
-      background-color: #FFFFFF;
+      background-color: #ffffff;
     }
 
     .popup-container {
@@ -192,7 +192,7 @@
     .popup-button-close {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "FontAwesome5Pro-Solid", sans-serif;
+      font-family: 'FontAwesome5Pro-Solid', sans-serif;
       font-size: 34px;
       font-weight: 400;
       font-style: normal;
@@ -218,7 +218,7 @@
     .popup-title {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Bold", sans-serif;
+      font-family: 'Roboto-Bold', sans-serif;
       font-size: 48px;
       font-weight: 700;
       font-style: normal;
@@ -232,7 +232,7 @@
     .popup-text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "OpenSans", sans-serif;
+      font-family: 'OpenSans', sans-serif;
       font-size: 16px;
       font-weight: 400;
       font-style: normal;
@@ -242,7 +242,7 @@
 
       width: 538px;
       height: 48px;
-      margin: 0 auto
+      margin: 0 auto;
     }
 
     .popup-form {
@@ -270,7 +270,7 @@
     .popup-input {
       opacity: 32%;
       color: rgba(25, 25, 25, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 16px;
       font-weight: 600;
       font-style: normal;
@@ -300,7 +300,7 @@
     .popup-button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 15px;
       font-weight: 600;
       font-style: normal;
@@ -341,7 +341,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: #FFFFFF;
+      color: #ffffff;
       background: transparent;
       padding: 20px;
     }
@@ -353,7 +353,7 @@
       font-style: normal;
       letter-spacing: 0;
       line-height: 72px;
-      color: #FFFFFF;
+      color: #ffffff;
       text-align: center;
       vertical-align: top;
       width: 730px;
@@ -370,7 +370,7 @@
       font-style: normal;
       letter-spacing: 0;
       line-height: 24px;
-      color: #FFFFFF;
+      color: #ffffff;
       text-align: center;
       vertical-align: top;
       width: 823px;
@@ -505,7 +505,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: #FFFFFF;
+      color: #ffffff;
       background: transparent;
       padding: 20px;
     }
@@ -517,7 +517,7 @@
       font-style: normal;
       letter-spacing: 0;
       line-height: 72px;
-      color: #FFFFFF;
+      color: #ffffff;
       text-align: center;
       vertical-align: top;
       width: 730px;
@@ -568,23 +568,27 @@
     }
 
     /* Card */
+    .card-container {
+      margin-top: 0.9rem;
+    }
+
     .card {
-      width: 348px;
-      height: 442px;
-      overflow: hidden;
       display: flex;
       flex-direction: column;
+      overflow: hidden;
+      width: 348px;
+      height: 442px;
       border: none;
     }
 
     .card img {
+      overflow: hidden;
+      object-fit: fill;
       border-radius: 6px;
       opacity: 1;
       background-size: 100%;
       width: 348px;
       height: 240px;
-      overflow: hidden;
-      object-fit: fill;
     }
 
     .cover {
@@ -599,12 +603,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
       border-radius: 4px;
       opacity: 1;
       background-color: rgba(237, 237, 237, 1);
-      height: 32px;
-      overflow: hidden;
       margin-left: -5px;
+      width: 94px;
+      height: 32px;
     }
 
     .card-type-interview {
@@ -612,17 +617,17 @@
     }
 
     .card-type-whitepaper {
-      width: 94px;
+      width: 94px !important;
     }
 
     .card-type-blog {
-      width: 64px;
+      width: 64px !important;
     }
 
     .card-type-button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 12px;
       font-weight: 600;
       font-style: normal;
@@ -638,23 +643,23 @@
     .card-title {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 20px;
       font-weight: 600;
       font-style: normal;
       letter-spacing: 0.26px;
       text-align: left;
-      width: 348px;
-      height: 48px;
       line-height: 1.4rem;
       margin-top: 10px;
       margin-bottom: 10px;
+      width: 348px;
+      height: 48px;
     }
 
     .card-text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "OpenSans", sans-serif;
+      font-family: 'OpenSans', sans-serif;
       font-size: 16px;
       font-weight: 400;
       font-style: normal;
@@ -667,7 +672,7 @@
     .card-form {
       opacity: 1;
       color: rgba(25, 25, 25, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 16px;
       font-weight: 500;
       font-style: normal;
@@ -681,7 +686,7 @@
     .card-form button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 15px;
       font-weight: 600;
       font-style: normal;
@@ -695,13 +700,34 @@
     .fa-arrow-right {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "FontAwesome5Pro-Solid", sans-serif;
+      font-family: 'FontAwesome5Pro-Solid', sans-serif;
       font-size: 13px;
       font-weight: 400;
       font-style: normal;
       letter-spacing: 0.22px;
       text-align: center;
       margin-left: 10px;
+    }
+
+    /* Events */
+    .event-date {
+      opacity: 1;
+      color: rgba(180, 180, 180, 1);
+      font-family: 'OpenSans';
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-top: 0.75rem;
+      margin-bottom: -0.5rem;
+      width: 80px;
+      height: 17px;
+    }
+
+    .card.no-event-date .card-title {
+      margin-top: 30px;
+      margin-bottom: 11px;
     }
 
     /* Filter */
@@ -753,133 +779,23 @@
     }
 
     .event-filter-selected {
-      background-color: #FF470B;
+      background-color: #ff470b;
       border: none;
     }
 
     .event-button-selected {
-      color: #FFFFFF;
-      background-color: #FF470B;
+      color: #ffffff;
+      background-color: #ff470b;
     }
 
     .event-filter-form:not(.event-filter-selected) {
-      background-color: #FFFFFF;
-      border: 1px solid #EDEDED;
+      background-color: #ffffff;
+      border: 1px solid #ededed;
     }
 
     .event-filter-button:not(.event-button-selected) {
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       color: #141414;
-    }
-
-    /* Events */
-    .event-container {
-      overflow: hidden;
-      /* border: 1px solid black; */
-    }
-
-    .event-date {
-      opacity: 1;
-      color: rgba(180, 180, 180, 1);
-      font-family: "OpenSans", sans-serif;
-      font-size: 12px;
-      font-weight: 400;
-      font-style: normal;
-      letter-spacing: 0px;
-      text-align: left;
-      width: 80px;
-      height: 17px;
-      margin-top: 10px;
-      margin-bottom: -10px;
-    }
-
-    .event-overlay {
-      height: 15.4rem;
-    }
-
-    .event-type-form {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 4px;
-      opacity: 1;
-      background-color: rgba(237, 237, 237, 1);
-      width: 94px;
-      height: 32px;
-      overflow: hidden;
-      margin-left: -5px;
-    }
-
-    .event-type-button {
-      opacity: 1;
-      color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Medium", sans-serif;
-      font-size: 12px;
-      font-weight: 600;
-      font-style: normal;
-      letter-spacing: 0px;
-      text-align: center;
-      line-height: 24px;
-      text-transform: uppercase;
-      border: none;
-      width: auto;
-      height: 24px;
-    }
-
-    .event-title {
-      opacity: 1;
-      color: rgba(0, 0, 0, 1);
-      font-family: "Roboto-Medium", sans-serif;
-      font-weight: 600;
-      font-style: normal;
-      letter-spacing: 0.26px;
-      text-align: left;
-      width: 348px;
-      height: 48px;
-      line-height: 1.4rem;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
-    .event-text {
-      opacity: 1;
-      color: rgba(0, 0, 0, 1);
-      font-family: "OpenSans", sans-serif;
-      font-size: 16px;
-      font-weight: 400;
-      font-style: normal;
-      letter-spacing: 0.2px;
-      text-align: left;
-      width: 349px;
-      height: 72px;
-    }
-
-    .event-form {
-      opacity: 1;
-      color: rgba(25, 25, 25, 1);
-      font-family: "Roboto-Medium", sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      font-style: normal;
-      letter-spacing: 0.2px;
-      text-align: left;
-      line-height: 24px;
-      width: 103px;
-      height: 24px;
-    }
-
-    .event-form button {
-      opacity: 1;
-      color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Medium", sans-serif;
-      font-size: 15px;
-      font-weight: 600;
-      font-style: normal;
-      letter-spacing: 0px;
-      text-align: left;
-      line-height: 24px;
-      border: none;
-      background-color: #fff;
     }
 
     /* Blog Detail */
@@ -891,37 +807,6 @@
     .event-detail-header {
       margin-top: 3.6rem;
       margin-bottom: 1rem;
-    }
-
-    .event-detail-header-date {
-      opacity: 1;
-      color: #141414;
-      font-family: "OpenSans", sans-serif;
-      font-size: 15px;
-      font-weight: 400;
-      font-style: normal;
-      letter-spacing: 0px;
-      text-align: left;
-      width: 80px;
-      height: 17px;
-      margin-top: 5px;
-      margin-bottom: -10px;
-      margin-left: 10px;
-    }
-
-    .event-detail-date {
-      opacity: 1;
-      color: rgba(180, 180, 180, 1);
-      font-family: "OpenSans", sans-serif;
-      font-size: 15px;
-      font-weight: 400;
-      font-style: normal;
-      letter-spacing: 0px;
-      text-align: left;
-      width: 80px;
-      height: 17px;
-      margin-top: 10px;
-      margin-bottom: -5px;
     }
 
     /* Login */
@@ -937,7 +822,7 @@
     .login-title {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Bold";
+      font-family: 'Roboto-Bold';
       font-size: 48px;
       font-weight: 700;
       font-style: normal;
@@ -952,7 +837,7 @@
     .login-text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "OpenSans";
+      font-family: 'OpenSans';
       font-size: 16px;
       font-weight: 400;
       font-style: normal;
@@ -977,7 +862,7 @@
 
     .login-input {
       color: rgba(25, 25, 25, 1);
-      font-family: "Roboto-Medium";
+      font-family: 'Roboto-Medium';
       font-size: 16px;
       font-weight: 500;
       font-style: normal;
@@ -988,7 +873,7 @@
       width: 100%;
       height: 24px;
       border: none;
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       outline: none;
     }
 
@@ -1007,7 +892,7 @@
     .login-button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Medium", sans-serif;
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 15px;
       font-weight: 500;
       font-style: normal;
@@ -1017,7 +902,7 @@
       width: 100%;
       height: 24px;
       border: none;
-      background-color: #FFFFFF;
+      background-color: #ffffff;
     }
 
     /* Search */
@@ -1035,7 +920,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: #FFFFFF;
+      color: #ffffff;
       background: transparent;
       padding: 20px;
     }
@@ -1071,7 +956,7 @@
     .search-results-title {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: "Roboto-Bold", sans-serif;
+      font-family: 'Roboto-Bold', sans-serif;
       font-size: 48px;
       font-weight: 700;
       font-style: normal;
@@ -1085,7 +970,7 @@
     .search-results-text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: "OpenSans", sans-serif;
+      font-family: 'OpenSans', sans-serif;
       font-size: 16px;
       font-weight: 400;
       font-style: normal;
@@ -1168,7 +1053,7 @@
       border: 1px solid black;
       margin-top: 5.2rem;
       background-color: #141414;
-      color: #EDEDED;
+      color: #ededed;
       width: 100%;
       height: 80px;
       display: flex;
@@ -1191,7 +1076,7 @@
     .footer-text {
       opacity: 1;
       color: rgba(255, 255, 255, 1);
-      font-family: "Roboto-Regular", sans-serif;
+      font-family: 'Roboto-Regular', sans-serif;
       font-size: 12px;
       font-weight: 400;
       font-style: normal;
@@ -1200,7 +1085,6 @@
       line-height: 16px;
     }
   </style>
-
 </head>
 
 <body <?php body_class(); ?>>
