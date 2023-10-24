@@ -8,21 +8,6 @@ defined('ABSPATH') || exit('Forbidden');
 get_header();
 ?>
 
-<style>
-    .event-detail-date {
-        margin-bottom: -14px;
-        margin-top: 3px;
-        opacity: 1;
-        color: rgba(180, 180, 180, 1);
-        font-family: "OpenSans", sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        font-style: normal;
-        letter-spacing: 0px;
-        text-align: left;
-    }
-</style>
-
 <!-- Medium Width Banner -->
 <div class="sm-w-banner">
     <div class="image-container">
@@ -96,7 +81,7 @@ get_header();
                         </button>
                     </form>
                 </div>
-                <div class="event-detail-date">
+                <div class="event-date">
                     01-01-2023
                 </div>
                 <p class="card-title">
@@ -157,8 +142,8 @@ get_header();
                     </form>
                 </div>
                 <p class="card-title">
-                    8 voordelen van een chatbot wat je <br />
-                    moet weten
+                    Social Brothers voor Dummies: wat <br />
+                    is een API
                 </p>
                 <p class="card-text">
                     Lorem ipsum dolor sit amet, consectetur <br />
@@ -174,7 +159,7 @@ get_header();
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/c247e45bad64e7ce417b495ef5b5b97be96cfc9c.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/3a370dde00787da50c0c065d68c672423e24a9e5.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-interview">
                         <button class="card-type-button" disabled>
@@ -184,7 +169,7 @@ get_header();
                 </div>
                 <p class="card-title">
                     Werken bij Social Brothers, <br />
-                    volgens designer Maria
+                    volgens developer Matthijs
                 </p>
                 <p class="card-text">
                     Lorem ipsum dolor sit amet, consectetur <br />
@@ -200,7 +185,7 @@ get_header();
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/019712613e0c43bf858dc67dcb48df9ad9b9b8fb.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/48c89c9f0f057003d04b45e1f43714e6c3daad21.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-interview">
                         <button class="card-type-button" disabled>
@@ -209,8 +194,8 @@ get_header();
                     </form>
                 </div>
                 <p class="card-title">
-                    Lees je in over alle voordelen van <br />
-                    HubSpot
+                    10 development trends die in de <br />
+                    toekomst het verschil gaan maken
                 </p>
                 <p class="card-text">
                     Lorem ipsum dolor sit amet, consectetur <br />
@@ -241,7 +226,7 @@ get_header();
                 </div>
                 <p class="card-title">
                     Werken bij Social Brothers, <br />
-                    volgens developer Bas
+                    volgens developer Iris
                 </p>
                 <p class="card-text">
                     Lorem ipsum dolor sit amet, consectetur <br />
