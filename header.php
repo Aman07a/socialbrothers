@@ -924,10 +924,6 @@
       margin-bottom: -5px;
     }
 
-    .container {
-      /* border: 1px solid black; */
-    }
-
     /* Login */
     .login-container {
       width: 536px;
@@ -1063,7 +1059,7 @@
     }
 
     .container {
-      border: 1px solid black;
+      /* border: 1px solid black; */
     }
 
     /* Search Results */
