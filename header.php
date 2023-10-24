@@ -1073,7 +1073,7 @@
       overflow: hidden;
       margin: 2rem auto;
       gap: 16px;
-      width: 376px;
+      width: 380px;
       height: 40px;
     }
 
