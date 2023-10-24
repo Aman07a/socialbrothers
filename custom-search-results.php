@@ -20,6 +20,30 @@ get_header();
     </div>
 </div>
 
+<div class="container">
+    <div class="search-results-header"></div>
+    <form action="#search-results?search=development" class="search-results-form">
+        <div class="search-results-input-border">
+            <input type="text" name="search" id="search" class="search-results-input" placeholder="development" disabled>
+        </div>
+        <div class="search-results-button-border">
+            <button class="search-results-button">
+                Zoeken
+            </button>
+        </div>
+    </form>
+
+    <div class="search-results-header">
+        <div class="search-results-title">
+            Alle zoekresultaten voor “development”
+        </div>
+    </div>
+
+    <div class="search-results-text">
+        7 resultaten
+    </div>
+</div>
+
 Search Results
 
 <?php

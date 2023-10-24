@@ -1062,6 +1062,110 @@
       margin-left: 38px;
     }
 
+    .container {
+      border: 1px solid black;
+    }
+
+    /* Search Results */
+    .search-results-header {
+      margin-top: 3.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .search-results-title {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: "Roboto-Bold", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 56px;
+      width: 1108px;
+      height: 56px;
+    }
+
+    .search-results-text {
+      opacity: 1;
+      color: rgba(0, 0, 0, 1);
+      font-family: "OpenSans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.2px;
+      text-align: center;
+      line-height: 22px;
+      width: 171px;
+      height: 22px;
+    }
+
+    .search-results-form {
+      overflow: hidden;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 420px;
+      height: 48px;
+    }
+
+    .search-results-input-border {
+      display: flex;
+      align-items: center;
+      border-radius: 3px;
+      border: 2px solid rgba(211, 211, 211, 1);
+      opacity: 1;
+      background-color: rgba(255, 255, 255, 1);
+      width: 320px;
+      height: 48px;
+      padding: 10px;
+      margin-right: 15px;
+    }
+
+    .search-results-input {
+      opacity: 0.32;
+      color: rgba(25, 25, 25, 1);
+      font-family: 'Roboto-Medium', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 0.2px;
+      text-align: left;
+      line-height: 24px;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      width: 100%;
+    }
+
+    .search-results-button-border {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      border: 2px solid #141414;
+      opacity: 1;
+      background-color: rgba(255, 255, 255, 1);
+      width: 115px;
+      height: 48px;
+      padding: 10px;
+    }
+
+    .search-results-button {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: 'Roboto-Medium', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: center;
+      line-height: 24px;
+      border: none;
+      background-color: transparent;
+    }
+
     /* Footer */
     footer {
       overflow: hidden;
