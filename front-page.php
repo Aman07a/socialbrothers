@@ -139,15 +139,15 @@ while (have_posts()) {
             <div class="col-md-4">
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="event-date">
-                        01-01-2023
-                    </div>
                     <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                         <form class="card-type-form card-type-interview">
                             <button class="card-type-button" disabled>
                                 utrecht
                             </button>
                         </form>
+                    </div>
+                    <div class="event-date">
+                        01-01-2023
                     </div>
                     <p class="card-title">
                         Het jaarlijkse bierpongtournooi van <br />
@@ -175,7 +175,9 @@ while (have_posts()) {
                             </button>
                         </form>
                     </div>
-                    <div class="event-date">01-01-2023</div>
+                    <div class="event-date">
+                        01-01-2023
+                    </div>
                     <p class="card-title">
                         Bootcamp op de donderdagavond <br />
                         met Biku
@@ -195,9 +197,6 @@ while (have_posts()) {
             <div class="col-md-4">
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="event-date">
-                        01-01-2023
-                    </div>
                     <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                         <form class="card-type-form card-type-interview">
                             <button class="card-type-button" disabled>
@@ -205,7 +204,9 @@ while (have_posts()) {
                             </button>
                         </form>
                     </div>
-                    <div class="event-date">01-01-2023</div>
+                    <div class="event-date">
+                        01-01-2023
+                    </div>
                     <p class="card-title">
                         Blijf up to date met de <br />
                         maandafsluiting

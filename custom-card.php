@@ -223,7 +223,9 @@ get_header();
                     </form>
                 </div>
                 <!-- Event Date -->
-                <div class="event-date">01-01-2023</div>
+                <div class="event-date">
+                    01-01-2023
+                </div>
                 <!-- Card Title -->
                 <p class="card-title">
                     Type something en dan ook een <br />
