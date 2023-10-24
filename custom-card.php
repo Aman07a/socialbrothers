@@ -151,7 +151,7 @@ get_header();
         margin-left: 10px;
     }
 
-    .card-date {
+    .event-date {
         opacity: 1;
         color: rgba(180, 180, 180, 1);
         font-family: "OpenSans";
@@ -166,7 +166,7 @@ get_header();
         height: 17px;
     }
 
-    .card.no-card-date .card-title {
+    .card.no-event-date .card-title {
         margin-top: 30px;
         margin-bottom: 11px;
     }
@@ -222,8 +222,8 @@ get_header();
                         <button class="card-type-button" disabled>utrecht</button>
                     </form>
                 </div>
-                <!-- Card Date -->
-                <div class="card-date">01-01-2023</div>
+                <!-- Event Date -->
+                <div class="event-date">01-01-2023</div>
                 <!-- Card Title -->
                 <p class="card-title">
                     Type something en dan ook een <br />
@@ -255,8 +255,8 @@ get_header();
     const cards = document.querySelectorAll('.card');
 
     cards.forEach(card => {
-        if (!card.querySelector('.card-date')) {
-            card.classList.add('no-card-date');
+        if (!card.querySelector('.event-date')) {
+            card.classList.add('no-event-date');
         }
     });
 </script>
