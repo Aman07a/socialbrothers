@@ -1045,7 +1045,7 @@
     }
 
     .search-banner-title {
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16633);
+      box-shadow: none;
       opacity: 1;
       font-family: 'Roboto-Bold', sans-serif;
       font-weight: 700;
