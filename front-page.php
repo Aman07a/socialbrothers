@@ -135,30 +135,30 @@ while (have_posts()) {
         </div>
 
         <!-- Events -->
-        <div class="row event-container">
+        <div class="row card-container">
             <div class="col-md-4">
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
                     <div class="event-date">
                         01-01-2023
                     </div>
-                    <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
-                        <form class="event-type-form card-type-interview">
-                            <button class="event-type-button" disabled>
+                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
+                        <form class="card-type-form card-type-interview">
+                            <button class="card-type-button" disabled>
                                 utrecht
                             </button>
                         </form>
                     </div>
-                    <p class="event-title">
+                    <p class="card-title">
                         Het jaarlijkse bierpongtournooi van <br />
                         Social Brothers
                     </p>
-                    <p class="event-text">
+                    <p class="card-text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="/event1" class="event-form">
+                    <form action="/event1" class="card-form">
                         <button>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -167,27 +167,25 @@ while (have_posts()) {
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" class="event-img-top" alt="">
-                    <div class="event-date">
-                        01-01-2023
-                    </div>
-                    <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
-                        <form class="event-type-form card-type-interview">
-                            <button class="event-type-button" disabled>
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" class="card-img-top" alt="">
+                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
+                        <form class="card-type-form card-type-interview">
+                            <button class="card-type-button" disabled>
                                 utrecht
                             </button>
                         </form>
                     </div>
-                    <p class="event-title">
+                    <div class="event-date">01-01-2023</div>
+                    <p class="card-title">
                         Bootcamp op de donderdagavond <br />
                         met Biku
                     </p>
-                    <p class="event-text">
+                    <p class="card-text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#events" class="event-form">
+                    <form action="#cards" class="card-form">
                         <button>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -196,27 +194,28 @@ while (have_posts()) {
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="event-img-top" alt="">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="card-img-top" alt="">
                     <div class="event-date">
                         01-01-2023
                     </div>
-                    <div class="card-img-overlay event-overlay d-flex flex-column justify-content-end">
-                        <form class="event-type-form card-type-interview">
-                            <button class="event-type-button" disabled>
+                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
+                        <form class="card-type-form card-type-interview">
+                            <button class="card-type-button" disabled>
                                 utrecht
                             </button>
                         </form>
                     </div>
-                    <p class="event-title">
+                    <div class="event-date">01-01-2023</div>
+                    <p class="card-title">
                         Blijf up to date met de <br />
                         maandafsluiting
                     </p>
-                    <p class="event-text">
+                    <p class="card-text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#events" class="event-form">
+                    <form action="#cards" class="card-form">
                         <button>
                             Lees meer
                             <i class="fa-sharp fa-solid fa-arrow-right"></i>
