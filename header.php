@@ -316,6 +316,10 @@
       row-gap: 6rem;
     }
 
+    .row-gap:last-child {
+      margin-bottom: 1rem;
+    }
+
     /* Large Banner */
     .lg-banner {
       overflow: hidden;
@@ -1055,6 +1059,65 @@
       line-height: 24px;
       border: none;
       background-color: transparent;
+    }
+
+    /* Pagination */
+    .pagination {
+      margin-bottom: -2.5rem;
+    }
+
+    .pagination-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin: 2rem auto;
+      gap: 16px;
+      width: 376px;
+      height: 40px;
+    }
+
+    .block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      border: 2px solid rgba(248, 248, 248, 1);
+      opacity: 1;
+      background-color: rgba(255, 255, 255, 1);
+      margin: 0 5px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .block-active {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      opacity: 1;
+      background-color: rgba(255, 71, 11, 1);
+      width: 40px;
+      height: 40px;
+    }
+
+    .pagination i {
+      font-size: 20px;
+    }
+
+    .fa-chevron-left,
+    .fa-chevron-right {
+      opacity: 0.24;
+      color: rgba(20, 20, 20, 1);
+      font-family: "FontAwesome5Pro-Solid", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0px;
+      text-align: left;
+      transform: scale(1.25);
+      width: 15px;
+      height: 24px;
     }
 
     /* Footer */

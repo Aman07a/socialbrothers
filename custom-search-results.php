@@ -128,8 +128,6 @@ get_header();
             </div>
         </div>
 
-        <!-- Spaces Between Rows -->
-
         <!-- Row 2 -->
         <div class="col-md-4">
             <div class="card">
@@ -210,8 +208,6 @@ get_header();
                 </form>
             </div>
         </div>
-
-        <!-- Spaces Between Rows -->
 
         <!-- Row 3 -->
         <div class="col-md-4">

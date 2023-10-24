@@ -132,7 +132,6 @@ get_header();
                     </form>
                 </div>
             </div>
-            <!-- Spaces Between Rows -->
 
             <!-- Row 2 -->
             <div class="col-md-4">
@@ -223,7 +222,6 @@ get_header();
                     </form>
                 </div>
             </div>
-            <!-- Spaces Between Rows -->
 
             <!-- Row 3 -->
             <div class="col-md-4">
@@ -314,7 +312,18 @@ get_header();
                     </form>
                 </div>
             </div>
-            <!-- Spaces Between Rows -->
+        </div>
+    </div>
+
+    <div class="pagination">
+        <div class="pagination-container">
+            <i class="fa-sharp fa-solid fa-chevron-left"></i>
+            <div class="block">1</div>
+            <div class="block block-active">2</div>
+            <div class="block">3</div>
+            <div class="block">...</div>
+            <div class="block">7</div>
+            <i class="fa-sharp fa-solid fa-chevron-right"></i>
         </div>
     </div>
 </div>

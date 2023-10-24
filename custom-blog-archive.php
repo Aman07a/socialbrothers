@@ -104,8 +104,6 @@ get_header();
                 </div>
             </div>
 
-            <!-- Spaces Between Rows -->
-
             <!-- Row 2 -->
             <div class="col-md-4">
                 <div class="card">
@@ -186,8 +184,6 @@ get_header();
                     </form>
                 </div>
             </div>
-
-            <!-- Spaces Between Rows -->
 
             <!-- Row 3 -->
             <div class="col-md-4">
@@ -272,7 +268,17 @@ get_header();
         </div>
     </div>
 
-    <!-- Pagination -->
+    <div class="pagination">
+        <div class="pagination-container">
+            <i class="fa-sharp fa-solid fa-chevron-left"></i>
+            <div class="block">1</div>
+            <div class="block block-active">2</div>
+            <div class="block">3</div>
+            <div class="block">...</div>
+            <div class="block">7</div>
+            <i class="fa-sharp fa-solid fa-chevron-right"></i>
+        </div>
+    </div>
 </div>
 
 <?php
