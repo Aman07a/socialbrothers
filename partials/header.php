@@ -19,9 +19,9 @@
       <a href="/archive-blog" class="col header__col header__blog">
         Blog
       </a>
-      <div class="col header__col header__events">
+      <a href="/archive-event" class="col header__col header__events">
         Events
-      </div>
+      </a>
       <div class="col header__col header__search">
         <button type="button" class="border-0 modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <i class="fa-solid fa-magnifying-glass"></i>
