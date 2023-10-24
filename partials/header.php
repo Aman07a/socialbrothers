@@ -19,7 +19,7 @@
       <a href="/archive-blog" class="col header__col header__blog">
         Blog
       </a>
-      <a href="/archive-event" class="col header__col header__events">
+      <a href="/archive-events" class="col header__col header__events">
         Events
       </a>
       <div class="col header__col header__search">

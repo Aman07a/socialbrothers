@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Custom Event Archive
+Template Name: Custom Events Archive
 */
 
 defined('ABSPATH') || exit('Forbidden');
