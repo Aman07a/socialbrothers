@@ -15,7 +15,6 @@
       <div class="col header__col"></div>
       <div class="col header__col"></div>
       <div class="col header__col"></div>
-      <div class="col header__col"></div>
       <a href="/archive-blog" class="col header__col header__blog">
         Blog
       </a>
@@ -50,20 +49,18 @@
         </script>
       <?php } ?>
       <?php if (is_user_logged_in()) { ?>
-        <a href="<?php echo wp_logout_url(home_url('/')); ?>" class="col header__col header__border">
+        <a href="<?php echo wp_logout_url(home_url('/')); ?>" class="col header__col header__border me-4">
           <div class="header__border__login">
             Logout
           </div>
         </a>
       <?php } else { ?>
-        <a href="login" class="col header__col header__border">
+        <a href="login" class="col header__col header__border me-4">
           <div class="header__border__login">
             Login
           </div>
         </a>
       <?php } ?>
-      <div class="col header__col hidden">
-      </div>
     </div>
   </div>
 </header>
