@@ -23,17 +23,17 @@ get_header();
 
         <div class="filter">
             <form action="#utrecht" class="event-filter-form event-filter-selected">
-                <button class="event-filter-button event-button-selected">
+                <button class="event-filter-button event-button-selected" disabled>
                     events utrecht
                 </button>
             </form>
             <form action="#rotterdam" class="event-filter-form">
-                <button class="event-filter-button">
+                <button class="event-filter-button" disabled>
                     events rotterdam
                 </button>
             </form>
             <form action="#leiden" class="event-filter-form">
-                <button class="event-filter-button">
+                <button class="event-filter-button" disabled>
                     events leiden
                 </button>
             </form>
@@ -95,7 +95,7 @@ get_header();
                     vestibulum, in tristique risus tincidunt.
                 </p>
                 <form action="#cards" class="card-form">
-                    <button>
+                    <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
                 </form>
@@ -124,7 +124,7 @@ get_header();
                     vestibulum, in tristique risus tincidunt.
                 </p>
                 <form action="#cards" class="card-form">
-                    <button>
+                    <button disabled>
                         Lees meer
                         <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -156,7 +156,7 @@ get_header();
                     vestibulum, in tristique risus tincidunt.
                 </p>
                 <form action="#cards" class="card-form">
-                    <button>
+                    <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
                 </form>
@@ -185,7 +185,7 @@ get_header();
                     vestibulum, in tristique risus tincidunt.
                 </p>
                 <form action="#cards" class="card-form">
-                    <button>
+                    <button disabled>
                         Lees meer
                         <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -214,8 +214,8 @@ get_header();
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="/event1" class="card-form">
-                    <button>
+                <form action="#event" class="card-form">
+                    <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
                 </form>
@@ -245,8 +245,8 @@ get_header();
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#cards" class="card-form">
-                    <button>
+                <form action="#event" class="card-form">
+                    <button disabled>
                         Lees meer
                         <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -275,8 +275,8 @@ get_header();
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="/event1" class="card-form">
-                    <button>
+                <form action="#event" class="card-form">
+                    <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
                 </form>
@@ -304,8 +304,8 @@ get_header();
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#cards" class="card-form">
-                    <button>
+                <form action="#event" class="card-form">
+                    <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
                 </form>

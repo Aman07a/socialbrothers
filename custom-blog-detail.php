@@ -91,8 +91,8 @@ get_header();
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="/blog1" class="card-form">
-                        <button>
+                    <form action="#blog" class="card-form">
+                        <button disabled>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
                     </form>
@@ -117,8 +117,8 @@ get_header();
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blogs" class="card-form">
-                        <button>
+                    <form action="#blog" class="card-form">
+                        <button disabled>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
                     </form>
@@ -143,8 +143,8 @@ get_header();
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blogs" class="card-form">
-                        <button>
+                    <form action="#blog" class="card-form">
+                        <button disabled>
                             Lees meer
                             <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
