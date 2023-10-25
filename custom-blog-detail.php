@@ -72,8 +72,8 @@ get_header();
         </h3>
 
         <div class="row card-container">
-            <div class="col-md-4">
-                <div class="card">
+            <div class="col-xl-4 col-lg-6 auto">
+                <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/9a4c5e7ca7beb10f9911b04ae5a9019ca806488d.jpg'; ?>" class="card-img-top" alt="">
                     <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                         <form class="card-type-form card-type-interview">
@@ -98,8 +98,8 @@ get_header();
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
+            <div class="col-xl-4 col-lg-6 auto">
+                <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/53c8722145b6fd9e358adfe7b3d05479c10aa9d5.jpg'; ?>" class="card-img-top" alt="">
                     <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                         <form class="card-type-form card-type-interview">
@@ -124,8 +124,8 @@ get_header();
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
+            <div class="col-xl-4 col-lg-6 auto">
+                <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/ed25aee744d9f6b5be4295767984a2151c31fb7f.jpg'; ?>" class="card-img-top" alt="">
                     <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                         <form class="card-type-form card-type-interview">
