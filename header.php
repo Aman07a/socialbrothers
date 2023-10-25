@@ -89,12 +89,9 @@
     }
 
     /* Default Styling for Larger Screens */
-    main .container {
-      /* Styling for Larger Screens */
-      overflow: hidden;
-    }
-
-    header .container {
+    main .container,
+    header .container,
+    footer .container {
       /* Styling for Larger Screens */
       overflow: hidden;
     }
@@ -103,11 +100,19 @@
     @media (max-width: 991px) {
 
       main .container,
-      header .container {
+      header .container,
+      footer .container {
         /* Styling for Screens up to 991px */
         overflow: hidden;
         max-width: 100%;
         /* Apply the max-width from .container-fluid */
+      }
+    }
+
+    /* Media Query for Screens up to 1400px */
+    @media (max-width: 1400px) {
+      .container-fluid .container .footer__row .footer-spacing {
+        flex: 2 !important;
       }
     }
 
@@ -1191,10 +1196,14 @@
       justify-content: space-between;
       height: 81px;
       opacity: 1;
+      gap: 10px;
     }
 
     .footer__col {
       flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
     }
 
@@ -1206,8 +1215,11 @@
       font-weight: 400;
       font-style: normal;
       letter-spacing: 0px;
-      text-align: left;
+      text-align: center;
+      white-space: nowrap;
+      text-overflow: ellipsis;
       line-height: 16px;
+      max-width: 160px;
     }
   </style>
 </head>
