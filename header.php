@@ -1038,6 +1038,14 @@
       height: 56px;
     }
 
+    @media (max-width: 1000px) {
+      .search-results-title {
+        font-size: 36px;
+        line-height: 40px;
+        width: 100%;
+      }
+    }
+
     .search-results-text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);

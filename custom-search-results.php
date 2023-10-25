@@ -43,10 +43,10 @@ get_header();
         7 resultaten
     </div>
 
-    <div class="row card-container">
+    <div class="row card-container row-gap">
         <!-- Row 1 -->
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-xl-4 col-lg-6 auto">
+            <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/3842730d227ca41a9eacec4c1ef38b12c1d9acfd.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-blog">
@@ -71,8 +71,8 @@ get_header();
                 </form>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-xl-4 col-lg-6 auto">
+            <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/39c8d2527922794a1572cd77d584f5d9d8b56a16.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-interview">
@@ -100,8 +100,8 @@ get_header();
                 </form>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-xl-4 col-lg-6 auto">
+            <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/ed25aee744d9f6b5be4295767984a2151c31fb7f.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-interview">
@@ -129,8 +129,8 @@ get_header();
         </div>
 
         <!-- Row 2 -->
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-xl-4 col-lg-6 auto">
+            <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/a11b35bea09068a555b885ee67a0275905f8e845.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-blog">
@@ -155,8 +155,8 @@ get_header();
                 </form>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-xl-4 col-lg-6 auto">
+            <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/3a370dde00787da50c0c065d68c672423e24a9e5.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-interview">
@@ -181,8 +181,8 @@ get_header();
                 </form>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-xl-4 col-lg-6 auto">
+            <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/48c89c9f0f057003d04b45e1f43714e6c3daad21.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-interview">
@@ -210,8 +210,8 @@ get_header();
         </div>
 
         <!-- Row 3 -->
-        <div class="col-md-4">
-            <div class="card">
+        <div class="col-xl-4 col-lg-6 auto">
+            <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/9d88703d51b5aff2bfaf980e38bedfb8eb018779.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                     <form class="card-type-form card-type-interview">
@@ -236,8 +236,8 @@ get_header();
                 </form>
             </div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <div class="col-xl-4 col-lg-6 auto"></div>
+        <div class="col-xl-4 col-lg-6 auto"></div>
     </div>
 </div>
 
