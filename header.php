@@ -1120,7 +1120,8 @@
 
     /* Pagination */
     .pagination {
-      margin-bottom: -2.5rem;
+      margin-top: 1rem;
+      height: auto;
     }
 
     .pagination-container {
@@ -1128,7 +1129,7 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      margin: 2rem auto;
+      margin: 1rem auto;
       gap: 16px;
       width: 380px;
       height: 40px;
@@ -1179,15 +1180,14 @@
 
     /* Footer */
     footer {
-      overflow: hidden;
-      border: 1px solid black;
-      margin-top: 5.2rem;
-      background-color: #141414;
-      color: #ededed;
-      width: 100%;
-      height: 80px;
       display: flex;
       align-items: center;
+      overflow: hidden;
+      background-color: #141414;
+      color: #ededed;
+      margin-top: 40px;
+      width: 100%;
+      height: 80px;
     }
 
     .footer__row {
