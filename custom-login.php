@@ -12,6 +12,10 @@ get_header();
     body {
         background-color: #F8F8F8;
     }
+
+    footer {
+        display: none;
+    }
 </style>
 
 <div class="login-container">
