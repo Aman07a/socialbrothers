@@ -27,12 +27,11 @@ get_header();
                         </button>
                     </form>
                 </div>
-                <div class="col">
+                <div class="col-2">
                     <div class="event-detail-header-date">
                         01-01-2023
                     </div>
                 </div>
-                <div class="col"></div>
                 <div class="col"></div>
                 <div class="col"></div>
                 <div class="col"></div>
@@ -91,9 +90,9 @@ get_header();
                     Eerst volgende evenementen in Utrecht
                 </h3>
 
-                <div class="row card-container">
-                    <div class="col-md-4">
-                        <div class="card">
+                <div class="row card-container row-gap">
+                    <div class="col-xl-4 col-lg-6 auto">
+                        <div class="card auto">
                             <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
                             <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                                 <form class="card-type-form card-type-interview">
@@ -121,8 +120,8 @@ get_header();
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
+                    <div class="col-xl-4 col-lg-6 auto">
+                        <div class="card auto">
                             <img src="<?php echo get_template_directory_uri() . '/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" alt="">
                             <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                                 <form class="card-type-form card-type-interview">
@@ -150,8 +149,8 @@ get_header();
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
+                    <div class="col-xl-4 col-lg-6 auto">
+                        <div class="card auto">
                             <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="card-img-top" alt="">
                             <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
                                 <form class="card-type-form card-type-interview">
