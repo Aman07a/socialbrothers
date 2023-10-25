@@ -82,9 +82,33 @@
       color: #141414;
     }
 
+    /* Container */
     .container {
       overflow: hidden;
-      /* border: 1px solid black; */
+      border: 1px solid black;
+    }
+
+    /* Default Styling for Larger Screens */
+    main .container {
+      /* Styling for Larger Screens */
+      overflow: hidden;
+    }
+
+    header .container {
+      /* Styling for Larger Screens */
+      overflow: hidden;
+    }
+
+    /* Media Query for Screens up to 991px */
+    @media (max-width: 991px) {
+
+      main .container,
+      header .container {
+        /* Styling for Screens up to 991px */
+        overflow: hidden;
+        max-width: 100%;
+        /* Apply the max-width from .container-fluid */
+      }
     }
 
     /* Header */
@@ -589,7 +613,8 @@
     @media (min-width: 500px) and (max-width: 992px) {
       .card-container {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        justify-content: flex-start;
       }
 
       .card {
