@@ -82,6 +82,11 @@
       color: #141414;
     }
 
+    .container {
+      overflow: hidden;
+      /* border: 1px solid black; */
+    }
+
     /* Header */
     header {
       background-color: #ffffff;
@@ -576,9 +581,34 @@
       margin-bottom: 1rem;
     }
 
+    /* w-auto */
+    .auto {
+      width: auto !important;
+    }
+
+    @media (min-width: 500px) and (max-width: 992px) {
+      .card-container {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
+      .card {
+        width: auto;
+        margin-right: 1rem;
+      }
+
+      .card:last-child {
+        margin-right: 0;
+      }
+    }
+
     /* Card */
     .card-container {
       margin-top: 0.9rem;
+      /* max-content >= 1200px */
+      /* width: max-content; */
+      width: auto;
+      /* border: 1px solid black; */
     }
 
     .card {
@@ -588,6 +618,7 @@
       width: 348px;
       height: 442px;
       border: none;
+      /* border: 1px solid black; */
     }
 
     .card img {
@@ -955,10 +986,6 @@
       height: 72px;
       margin-top: 10px;
       margin-left: 38px;
-    }
-
-    .container {
-      /* border: 1px solid black; */
     }
 
     /* Search Results */
