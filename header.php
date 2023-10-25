@@ -431,8 +431,13 @@
     .md-banner {
       overflow: hidden;
       width: 100%;
-      height: 450px;
       position: relative;
+      max-height: 450px;
+      padding-bottom: 28.125%;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .md-banner::before {
@@ -447,9 +452,7 @@
 
     .md-banner .image-container {
       width: 100%;
-      height: 100%;
-      overflow: hidden;
-      position: relative;
+      height: auto;
     }
 
     .md-banner .image-container img {
@@ -460,12 +463,21 @@
       left: 0;
     }
 
+    /* Original Image */
+    /* Width: 3000px */
+    /* Height: 2000px */
+
     /* Medium Width Banner */
     .md-w-banner {
       overflow: hidden;
       width: 100%;
-      height: 463px;
       position: relative;
+      max-height: 463px;
+      padding-bottom: 30.08%;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .md-w-banner::before {
@@ -480,16 +492,14 @@
 
     .md-w-banner .image-container {
       width: 100%;
-      height: 100%;
-      overflow: hidden;
-      position: relative;
+      height: auto;
     }
 
     .md-w-banner .image-container img {
       width: 100%;
       height: auto;
       position: absolute;
-      top: -280px;
+      top: -60.5%;
       left: 0;
     }
 
