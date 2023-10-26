@@ -25,7 +25,7 @@ while (have_posts()) {
             <h3 class="blog-title">De nieuwste blogs</h3>
         </div>
 
-        <div class="row card-container">
+        <div class="row card-container row-gap">
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" class="card-img-top cover" alt="">
@@ -133,7 +133,7 @@ while (have_posts()) {
         </div>
 
         <!-- Events -->
-        <div class="row card-container">
+        <div class="row card-container row-gap">
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
