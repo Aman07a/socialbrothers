@@ -12,7 +12,7 @@ get_header();
 <div class="sm-banner">
     <img src="<?php echo get_template_directory_uri() . '/assets/images/719d7119b323a629a782fa92dd43e21e888590ab.jpg'; ?>" alt="Image" class="img-fluid">
     <div class="sm-banner-cover">
-        <h2 class="sm-banner-title">Events</h2>
+        <h2 class="sm-banner-cover__title">Events</h2>
     </div>
 </div>
 

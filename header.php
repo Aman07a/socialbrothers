@@ -535,7 +535,7 @@
       padding: 20px;
     }
 
-    .sm-banner-title {
+    .sm-banner-cover__title {
       font-family: 'Roboto', sans-serif;
       font-weight: 700;
       font-size: 72px;
