@@ -206,24 +206,22 @@
       background-color: #ffffff;
     }
 
-    .popup-container {
+    .popup {
       display: flex;
       flex-direction: column;
       align-items: stretch;
-
       border-radius: 6px;
       box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
       opacity: 1;
       background-color: rgba(255, 255, 255, 1);
       width: 918px;
       height: 520px;
-
       top: 24rem;
       left: 50%;
       transform: translate(-50%, -50%);
     }
 
-    .popup-button-close {
+    .popup__close-button {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
       font-family: 'FontAwesome5Pro-Solid', sans-serif;
@@ -237,7 +235,7 @@
       height: 37px;
     }
 
-    .popup-header {
+    .popup__header {
       overflow: hidden;
       display: flex;
       justify-content: space-between;
@@ -249,7 +247,7 @@
       margin-top: 2.5rem;
     }
 
-    .popup-title {
+    .popup__title {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
       font-family: 'Roboto-Bold', sans-serif;
@@ -263,7 +261,7 @@
       height: 100%;
     }
 
-    .popup-text {
+    .popup__text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
       font-family: 'OpenSans', sans-serif;
@@ -273,13 +271,12 @@
       letter-spacing: 0.2px;
       text-align: center;
       line-height: 22px;
-
       width: 538px;
       height: 48px;
       margin: 0 auto;
     }
 
-    .popup-form {
+    .popup__form {
       overflow: hidden;
       display: flex;
       justify-content: center;
@@ -288,7 +285,7 @@
       height: 3rem;
     }
 
-    .popup-input-border {
+    .popup__input-border {
       display: flex;
       align-items: center;
       border-radius: 3px;
@@ -301,7 +298,7 @@
       margin-right: 15px;
     }
 
-    .popup-input {
+    .popup__input {
       opacity: 32%;
       color: rgba(25, 25, 25, 1);
       font-family: 'Roboto-Medium', sans-serif;
@@ -318,7 +315,7 @@
       width: 100%;
     }
 
-    .popup-button-border {
+    .popup__button-border {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -331,7 +328,7 @@
       padding: 10px;
     }
 
-    .popup-button {
+    .popup__button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
       font-family: 'Roboto-Medium', sans-serif;

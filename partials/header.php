@@ -65,25 +65,25 @@
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content popup-container border-0">
+    <div class="modal-content popup border-0">
       <div class="modal-header border-bottom-0">
-        <button type="button" class="btn-close popup-button-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close popup__close-button data-bs-dismiss=" modal" aria-label="Close"></button>
       </div>
-      <div class="popup-header">
-        <div class="popup-title">
+      <div class="popup__header">
+        <div class="popup__title">
           Waar ben je naar op zoek?
         </div>
       </div>
-      <div class="popup-text">
+      <div class="popup__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent <br />
         luctus velit id ex vestibulum, in tristique risus tincidunt.
       </div>
-      <form action="/search-results" class="popup-form">
-        <div class="popup-input-border">
-          <input type="text" name="search" id="search" class="popup-input" placeholder="Ik ben op zoek naar ..." disabled>
+      <form action="/search-results" class="popup__form">
+        <div class="popup__input-border">
+          <input type="text" name="search" id="search" class="popup__input" placeholder="Ik ben op zoek naar ..." disabled>
         </div>
-        <div class="popup-button-border">
-          <button class="popup-button">
+        <div class="popup__button-border">
+          <button class="popup__button">
             Zoeken
           </button>
         </div>
