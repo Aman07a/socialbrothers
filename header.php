@@ -1120,7 +1120,7 @@
       height: 40px;
     }
 
-    .block {
+    .pagination__block {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1133,12 +1133,13 @@
       height: 40px;
     }
 
-    .block-active {
+    .pagination__block--active {
       display: flex;
       align-items: center;
       justify-content: center;
       border-radius: 4px;
       opacity: 1;
+      color: white;
       background-color: rgba(255, 71, 11, 1);
       width: 40px;
       height: 40px;

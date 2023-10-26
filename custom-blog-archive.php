@@ -268,11 +268,11 @@ get_header();
     <div class="pagination">
         <div class="pagination-container">
             <i class="fa-sharp fa-solid fa-chevron-left"></i>
-            <div class="block">1</div>
-            <div class="block block-active">2</div>
-            <div class="block">3</div>
-            <div class="block">...</div>
-            <div class="block">7</div>
+            <div class="pagination__block">1</div>
+            <div class="pagination__block pagination__block--active">2</div>
+            <div class="pagination__block">3</div>
+            <div class="pagination__block">...</div>
+            <div class="pagination__block">7</div>
             <i class="fa-sharp fa-solid fa-chevron-right"></i>
         </div>
     </div>
