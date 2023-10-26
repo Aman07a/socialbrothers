@@ -1,13 +1,11 @@
 <?php defined('ABSPATH') || exit('Forbidden'); ?>
 
-<header>
-  <!-- Header Container -->
+<header class="header">
   <div class="container">
-    <!-- 12 Columns -->
     <div class="row header__row">
       <div class="col header__col">
         <a href="/">
-          <img class="header__logo" src="https://socialbrothers.nl/wp-content/uploads/2021/11/sb-logo.svg">
+          <img class="header__logo" src="https://socialbrothers.nl/wp-content/uploads/2021/11/sb-logo.svg" alt="Logo">
         </a>
       </div>
       <div class="col header__col"></div>
@@ -22,7 +20,7 @@
         Events
       </a>
       <div class="col header__col header__search">
-        <button type="button" class="border-0 modal-button" id="modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="modal-button border-0" id="modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
