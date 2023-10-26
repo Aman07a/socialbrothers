@@ -67,7 +67,7 @@
   <div class="modal-dialog">
     <div class="modal-content popup border-0">
       <div class="modal-header border-bottom-0">
-        <button type="button" class="btn-close popup__close-button data-bs-dismiss=" modal" aria-label="Close"></button>
+        <button type="button" class="btn-close popup__close-button" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="popup__header">
         <div class="popup__title">
