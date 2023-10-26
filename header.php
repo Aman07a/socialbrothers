@@ -775,13 +775,13 @@
       font-style: normal;
       letter-spacing: 0px;
       text-align: left;
-      margin-top: 0.75rem;
+      margin-top: 0.55rem;
       margin-bottom: -0.5rem;
       width: 80px;
       height: 17px;
     }
 
-    .card.no-event-date .card-title {
+    .card.no-event-date .card__title {
       margin-top: 30px;
       margin-bottom: 11px;
     }
