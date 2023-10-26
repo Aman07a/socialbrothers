@@ -597,23 +597,6 @@
       width: auto !important;
     }
 
-    @media (min-width: 500px) and (max-width: 992px) {
-      .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-      }
-
-      .card {
-        width: auto;
-        margin-right: 1rem;
-      }
-
-      .card:last-child {
-        margin-right: 0;
-      }
-    }
-
     /* Card */
     .card-container {
       margin-top: 0.9rem;
@@ -747,6 +730,23 @@
       line-height: 24px;
       border: none;
       background-color: #fff;
+    }
+
+    @media (min-width: 500px) and (max-width: 992px) {
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+
+      .card {
+        width: auto;
+        margin-right: 1rem;
+      }
+
+      .card:last-child {
+        margin-right: 0;
+      }
     }
 
     .fa-arrow-right {
