@@ -114,8 +114,8 @@ while (have_posts()) {
             </div>
 
             <div class="filter">
-                <form action="#utrecht" class="event-filter-form event-filter-selected">
-                    <button class="event-filter-button event-button-selected" disabled>
+                <form action="#utrecht" class="event-filter-form event-filter--selected">
+                    <button class="event-filter-button event-button--selected" disabled>
                         events utrecht
                     </button>
                 </form>

@@ -789,7 +789,6 @@
     /* Filter */
     .filter-container {
       overflow: hidden;
-      /* border: 1px solid black; */
     }
 
     .event-header {
@@ -800,7 +799,6 @@
     .filter {
       display: flex;
       gap: 10px;
-      /* border: 1px solid black; */
       margin-bottom: 20px;
       border-radius: 5px;
     }
@@ -834,22 +832,22 @@
       height: 24px;
     }
 
-    .event-filter-selected {
+    .event-filter--selected {
       background-color: #ff470b;
       border: none;
     }
 
-    .event-button-selected {
+    .event-button--selected {
       color: #ffffff;
       background-color: #ff470b;
     }
 
-    .event-filter-form:not(.event-filter-selected) {
+    .event-filter-form:not(.event-filter--selected) {
       background-color: #ffffff;
       border: 1px solid #ededed;
     }
 
-    .event-filter-button:not(.event-button-selected) {
+    .event-filter-button:not(.event-button--selected) {
       background-color: #ffffff;
       color: #141414;
     }
