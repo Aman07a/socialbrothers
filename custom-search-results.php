@@ -21,25 +21,25 @@ get_header();
 </div>
 
 <div class="container">
-    <div class="search-results-header"></div>
-    <form action="#search-results?search=development" class="search-results-form">
-        <div class="search-results-input-border">
-            <input type="text" name="search" id="search" class="search-results-input" placeholder="development" disabled>
+    <div class="search-results__header"></div>
+    <form action="#search-results?search=development" class="search-results__form">
+        <div class="search-results__input-border">
+            <input type="text" name="search" id="search" class="search-results__input" placeholder="development" disabled>
         </div>
-        <div class="search-results-button-border">
-            <button class="search-results-button" disabled>
+        <div class="search-results__button-border">
+            <button class="search-results__button" disabled>
                 Zoeken
             </button>
         </div>
     </form>
 
-    <div class="search-results-header">
-        <div class="search-results-title">
+    <div class="search-results__header">
+        <div class="search-results__title">
             Alle zoekresultaten voor “development”
         </div>
     </div>
 
-    <div class="search-results-text">
+    <div class="search-results__text">
         7 resultaten
     </div>
 
