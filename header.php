@@ -966,7 +966,7 @@
       background-color: rgba(0, 0, 0, 0.54);
     }
 
-    .search-banner-cover {
+    .search-banner-container__cover {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -977,7 +977,7 @@
       padding: 20px;
     }
 
-    .search-banner-title {
+    .search-banner-container__title {
       box-shadow: none;
       opacity: 1;
       font-family: 'Roboto-Bold', sans-serif;
