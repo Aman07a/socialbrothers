@@ -425,7 +425,7 @@
     /* Height: 3000px */
 
     /* Medium Banner */
-    .md-banner {
+    .md-h-banner {
       overflow: hidden;
       width: 100%;
       position: relative;
@@ -437,7 +437,7 @@
       justify-content: center;
     }
 
-    .md-banner::before {
+    .md-h-banner::before {
       content: '';
       position: absolute;
       top: 0;
@@ -447,12 +447,12 @@
       background: rgba(0, 0, 0, 0.5);
     }
 
-    .md-banner .image-container {
+    .md-h-banner .image-container {
       width: 100%;
       height: auto;
     }
 
-    .md-banner .image-container img {
+    .md-h-banner .image-container img {
       width: 100%;
       height: auto;
       position: absolute;
@@ -499,31 +499,6 @@
       top: -60.5%;
       left: 0;
     }
-
-    /* Test: Medium Banner */
-    /* .md-banner img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 35%;
-    } */
-
-    /* .md-banner .img-container {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      position: relative;
-    }
-
-    .md-banner .img-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      top: 35%;
-      left: 50%;
-      transform: translateX(-50%);
-    } */
 
     /* Small Banner */
     .sm-banner {
