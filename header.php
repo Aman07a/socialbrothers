@@ -791,7 +791,7 @@
       overflow: hidden;
     }
 
-    .event-header {
+    .event-filter-header {
       margin-top: 3.6rem;
       margin-bottom: 0.5rem;
     }
@@ -852,7 +852,6 @@
       color: #141414;
     }
 
-    /* Blog Detail */
     /* Event Detail */
     .event-detail-container {
       overflow: hidden;
