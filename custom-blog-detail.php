@@ -16,7 +16,7 @@ get_header();
 
 <div class="container">
     <div class="blog-container">
-        <div class="blog-header">
+        <div class="blog-container__header">
             <form class="card-type-form card-type-interview">
                 <button class="card-type-button" disabled>
                     interview
@@ -66,7 +66,7 @@ get_header();
         </p>
     </div>
 
-    <div class="blog-header">
+    <div class="blog-container__header">
         <h3 class="blog-title">
             Gerelateerde blogs
         </h3>

@@ -18,7 +18,7 @@ get_header();
 
 <div class="container">
     <!-- Blog -->
-    <div class="blog-header"></div>
+    <div class="blog-container__header"></div>
 
     <div class="row card-container row-gap">
         <!-- Row 1 -->

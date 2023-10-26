@@ -582,12 +582,12 @@
       left: 0;
     }
 
+    /* Blog */
     .blog-container {
       overflow: hidden;
-      /* border: 1px solid black; */
     }
 
-    .blog-header {
+    .blog-container__header {
       margin-top: 3.6rem;
       margin-bottom: 1rem;
     }

@@ -21,7 +21,7 @@ while (have_posts()) {
 
     <div class="container">
         <!-- Blog -->
-        <div class="blog-header">
+        <div class="blog-container__header">
             <h3 class="blog-title">De nieuwste blogs</h3>
         </div>
 
