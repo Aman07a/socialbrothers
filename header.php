@@ -766,7 +766,7 @@
       margin-bottom: 0.5rem;
     }
 
-    .event-date {
+    .event__date {
       opacity: 1;
       color: rgba(180, 180, 180, 1);
       font-family: 'OpenSans';
@@ -781,7 +781,7 @@
       height: 17px;
     }
 
-    .card.no-event-date .card__title {
+    .card.no-event__date .card__title {
       margin-top: 30px;
       margin-bottom: 11px;
     }

@@ -10,8 +10,8 @@ wp_footer();
     const cards = document.querySelectorAll('.card');
 
     cards.forEach(card => {
-        if (!card.querySelector('.event-date')) {
-            card.classList.add('no-event-date');
+        if (!card.querySelector('.event__date')) {
+            card.classList.add('no-event__date');
         }
     });
 </script>
