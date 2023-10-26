@@ -6,13 +6,13 @@
   <div class="container">
     <!-- 12 Columns -->
     <div class="row footer__row">
-      <div class="col-md-2 footer__col footer-text footer-spacing">
+      <div class="col-md-2 footer__col footer__text footer__spacing">
         Algemene voorwaarden
       </div>
-      <div class="col-md-2 footer__col footer-text footer-spacing">
+      <div class="col-md-2 footer__col footer__text footer__spacing">
         Privacy statement
       </div>
-      <div class="col-md-2 footer__col footer-text">
+      <div class="col-md-2 footer__col footer__text">
         Toegankelijkheidsverklaring
       </div>
       <div class="col footer__col">

@@ -111,7 +111,7 @@
 
     /* Media Query for Screens up to 1400px */
     @media (max-width: 1400px) {
-      .container-fluid .container .footer__row .footer-spacing {
+      .container-fluid .container .footer__row .footer__spacing {
         flex: 2 !important;
       }
     }
@@ -1193,7 +1193,7 @@
       text-align: center;
     }
 
-    .footer-text {
+    .footer__text {
       opacity: 1;
       color: rgba(255, 255, 255, 1);
       font-family: 'Roboto-Regular', sans-serif;
