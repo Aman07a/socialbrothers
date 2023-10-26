@@ -12,19 +12,7 @@
   <!-- Styling -->
   <style>
     /* Basics */
-    h1 {
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.166329763986014);
-      opacity: 1;
-      color: rgba(255, 255, 255, 1);
-      font-family: 'Roboto-Bold', sans-serif;
-      font-size: 72px;
-      font-weight: 700;
-      font-style: normal;
-      letter-spacing: 0px;
-      text-align: center;
-      line-height: 72px;
-    }
-
+    h1,
     h2 {
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.166329763986014);
       opacity: 1;
@@ -85,7 +73,6 @@
     /* Container */
     .container {
       overflow: hidden;
-      border: 1px solid black;
     }
 
     /* Default Styling for Larger Screens */
@@ -141,18 +128,7 @@
       height: 40px;
     }
 
-    .header__blog {
-      opacity: 1;
-      color: rgba(0, 0, 0, 1);
-      font-family: 'Roboto-Medium', sans-serif;
-      font-size: 18px;
-      font-weight: 600;
-      font-style: normal;
-      letter-spacing: 0px;
-      text-align: center;
-      line-height: 24px;
-    }
-
+    .header__blog,
     .header__events {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
@@ -168,7 +144,7 @@
     .header__search {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: 'FontAwesome5Pro-Solid';
+      font-family: 'FontAwesome5Pro-Solid', sans-serif;
       font-size: 21px;
       font-weight: 400;
       font-style: normal;
@@ -769,7 +745,7 @@
     .event__date {
       opacity: 1;
       color: rgba(180, 180, 180, 1);
-      font-family: 'OpenSans';
+      font-family: 'OpenSans', sans-serif;
       font-size: 12px;
       font-weight: 400;
       font-style: normal;
@@ -874,8 +850,8 @@
     .login-container__title {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
-      font-family: 'Roboto-Bold';
-      font-size: 48px;
+      font-family: 'Roboto-Bold', sans-serif;
+      font-size: 40px;
       font-weight: 700;
       font-style: normal;
       letter-spacing: 0px;
@@ -889,7 +865,7 @@
     .login-container__text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
-      font-family: 'OpenSans';
+      font-family: 'OpenSans', sans-serif;
       font-size: 16px;
       font-weight: 400;
       font-style: normal;
@@ -914,7 +890,7 @@
 
     .login-container__input {
       color: rgba(25, 25, 25, 1);
-      font-family: 'Roboto-Medium';
+      font-family: 'Roboto-Medium', sans-serif;
       font-size: 16px;
       font-weight: 500;
       font-style: normal;
