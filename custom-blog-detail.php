@@ -17,8 +17,8 @@ get_header();
 <div class="container">
     <div class="blog-container">
         <div class="blog-container__header">
-            <form class="card-type-form card-type-interview">
-                <button class="card-type-button" disabled>
+            <form class="card__type-form card__type-interview">
+                <button class="card__type-button" disabled>
                     interview
                 </button>
             </form>
@@ -75,23 +75,23 @@ get_header();
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/9a4c5e7ca7beb10f9911b04ae5a9019ca806488d.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-interview">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-interview">
+                            <button class="card__type-button" disabled>
                                 interview
                             </button>
                         </form>
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Werken bij Social Brothers, <br />
                         volgens developer Bas
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blog" class="card-form">
+                    <form action="#blog" class="card__form">
                         <button disabled>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -101,23 +101,23 @@ get_header();
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/53c8722145b6fd9e358adfe7b3d05479c10aa9d5.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-interview">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-interview">
+                            <button class="card__type-button" disabled>
                                 interview
                             </button>
                         </form>
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Werken bij Social Brothers, <br />
                         volgens developer Lisa
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blog" class="card-form">
+                    <form action="#blog" class="card__form">
                         <button disabled>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -127,23 +127,23 @@ get_header();
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/ed25aee744d9f6b5be4295767984a2151c31fb7f.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-interview">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-interview">
+                            <button class="card__type-button" disabled>
                                 interview
                             </button>
                         </form>
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Werken bij Social Brothers, <br />
                         volgens developer Wendy
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blog" class="card-form">
+                    <form action="#blog" class="card__form">
                         <button disabled>
                             Lees meer
                             <i class="fa-sharp fa-solid fa-arrow-right"></i>
