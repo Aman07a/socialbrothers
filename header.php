@@ -369,7 +369,7 @@
       background: rgba(0, 0, 0, 0.5);
     }
 
-    .lg-banner img {
+    .lg-banner__img {
       height: 100%;
       width: 100%;
       object-fit: cover;
@@ -386,7 +386,7 @@
       padding: 20px;
     }
 
-    .lg-banner-title {
+    .lg-banner-cover__title {
       font-family: 'Roboto', sans-serif;
       font-weight: 700;
       font-size: 72px;
@@ -403,7 +403,7 @@
       margin-bottom: -16px;
     }
 
-    .lg-banner-desc {
+    .lg-banner-cover__desc {
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       font-size: 18px;
