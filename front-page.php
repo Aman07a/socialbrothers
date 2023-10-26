@@ -109,7 +109,7 @@ while (have_posts()) {
 
         <!-- Events: Filter -->
         <div class="filter-container">
-            <div class="event-filter-header">
+            <div class="event-filter__header">
                 <h3 class="event-title">Opkomende events</h3>
             </div>
 

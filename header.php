@@ -761,7 +761,7 @@
     }
 
     /* Events */
-    .event-archive-header {
+    .event-archive__header {
       margin-top: 1.6rem;
       margin-bottom: 0.5rem;
     }
@@ -791,7 +791,7 @@
       overflow: hidden;
     }
 
-    .event-filter-header {
+    .event-filter__header {
       margin-top: 3.6rem;
       margin-bottom: 0.5rem;
     }
@@ -857,7 +857,7 @@
       overflow: hidden;
     }
 
-    .event-detail-header {
+    .event-detail__header {
       margin-top: 3.6rem;
       margin-bottom: 1rem;
     }

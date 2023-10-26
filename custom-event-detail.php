@@ -17,7 +17,7 @@ get_header();
 
 <div class="container">
     <div class="event-detail-container">
-        <div class="event-detail-header">
+        <div class="event-detail__header">
             <div class="row">
                 <!-- 12 Columns -->
                 <div class="col">
@@ -28,7 +28,7 @@ get_header();
                     </form>
                 </div>
                 <div class="col-2">
-                    <div class="event-detail-header-date">
+                    <div class="event__date">
                         01-01-2023
                     </div>
                 </div>
@@ -85,7 +85,7 @@ get_header();
                 bibendum enim facilisis gravida. At elementum eu facilisis sed odio morbi quis commodo.
             </p>
 
-            <div class="event-detail-header">
+            <div class="event-detail__header">
                 <h3 class="event-detail-title">
                     Eerst volgende evenementen in Utrecht
                 </h3>

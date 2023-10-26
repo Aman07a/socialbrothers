@@ -19,7 +19,7 @@ get_header();
 <div class="container">
     <!-- Events: Filter -->
     <div class="filter-container">
-        <div class="event-archive-header"></div>
+        <div class="event-archive__header"></div>
 
         <div class="filter">
             <form action="#utrecht" class="event-filter-form event-filter--selected">
