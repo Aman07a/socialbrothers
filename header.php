@@ -613,7 +613,6 @@
       width: 348px;
       height: 442px;
       border: none;
-      /* border: 1px solid black; */
     }
 
     .card img {
@@ -626,15 +625,15 @@
       height: 240px;
     }
 
-    .cover {
+    .card__img--cover {
       object-fit: cover !important;
     }
 
-    .card-overlay {
+    .card__overlay {
       height: 15.4rem;
     }
 
-    .card-type-form {
+    .card__type-form {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -647,19 +646,19 @@
       height: 32px;
     }
 
-    .card-type-interview {
+    .card__type-interview {
       width: 85px !important;
     }
 
-    .card-type-whitepaper {
+    .card__type-whitepaper {
       width: 94px !important;
     }
 
-    .card-type-blog {
+    .card__type-blog {
       width: 64px !important;
     }
 
-    .card-type-button {
+    .card__type-button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
       font-family: 'Roboto-Medium', sans-serif;
@@ -675,7 +674,7 @@
       height: 24px;
     }
 
-    .card-title {
+    .card__title {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
       font-family: 'Roboto-Medium', sans-serif;
@@ -691,7 +690,7 @@
       height: 48px;
     }
 
-    .card-text {
+    .card__text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
       font-family: 'OpenSans', sans-serif;
@@ -704,7 +703,7 @@
       height: 72px;
     }
 
-    .card-form {
+    .card__form {
       opacity: 1;
       color: rgba(25, 25, 25, 1);
       font-family: 'Roboto-Medium', sans-serif;
@@ -718,7 +717,7 @@
       height: 24px;
     }
 
-    .card-form button {
+    .card__form button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
       font-family: 'Roboto-Medium', sans-serif;

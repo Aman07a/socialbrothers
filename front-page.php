@@ -28,24 +28,24 @@ while (have_posts()) {
         <div class="row card-container row-gap">
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" class="card-img-top cover" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-interview">
-                            <button class="card-type-button" disabled>
+                    <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" class="card-img-top card__img--cover" alt="">
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-interview">
+                            <button class="card__type-button" disabled>
                                 interview
                             </button>
                         </form>
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Werken bij Social Brothers, <br />
                         volgens developer Ryence
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="/blog1" class="card-form">
+                    <form action="/blog1" class="card__form">
                         <button>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -55,23 +55,23 @@ while (have_posts()) {
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/c9affda65b1530ebfde2cb412de6009da9e6a477.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-whitepaper">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-whitepaper">
+                            <button class="card__type-button" disabled>
                                 whitepaper
                             </button>
                         </form>
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Hoe stimuleer je winkelbezoek <br />
                         met technologie?
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blog" class="card-form">
+                    <form action="#blog" class="card__form">
                         <button disabled>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -81,23 +81,23 @@ while (have_posts()) {
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/a8eb6babda033968f38e01469c8e86b536a9008f.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-blog">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-blog">
+                            <button class="card__type-button" disabled>
                                 blog
                             </button>
                         </form>
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Locatie gebaseerde pushberichten <br />
                         sturen
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#blog" class="card-form">
+                    <form action="#blog" class="card__form">
                         <button disabled>
                             Lees meer
                             <i class="fa-sharp fa-solid fa-arrow-right"></i>
@@ -137,9 +137,9 @@ while (have_posts()) {
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-interview">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-interview">
+                            <button class="card__type-button" disabled>
                                 utrecht
                             </button>
                         </form>
@@ -147,16 +147,16 @@ while (have_posts()) {
                     <div class="event-date">
                         01-01-2023
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Het jaarlijkse bierpongtournooi van <br />
                         Social Brothers
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="/event1" class="card-form">
+                    <form action="/event1" class="card__form">
                         <button>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -166,9 +166,9 @@ while (have_posts()) {
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-interview">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-interview">
+                            <button class="card__type-button" disabled>
                                 utrecht
                             </button>
                         </form>
@@ -176,16 +176,16 @@ while (have_posts()) {
                     <div class="event-date">
                         01-01-2023
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Bootcamp op de donderdagavond <br />
                         met Biku
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#cards" class="card-form">
+                    <form action="#cards" class="card__form">
                         <button disabled>
                             Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                         </button>
@@ -195,9 +195,9 @@ while (have_posts()) {
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                        <form class="card-type-form card-type-interview">
-                            <button class="card-type-button" disabled>
+                    <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                        <form class="card__type-form card__type-interview">
+                            <button class="card__type-button" disabled>
                                 utrecht
                             </button>
                         </form>
@@ -205,16 +205,16 @@ while (have_posts()) {
                     <div class="event-date">
                         01-01-2023
                     </div>
-                    <p class="card-title">
+                    <p class="card__title">
                         Blijf up to date met de <br />
                         maandafsluiting
                     </p>
-                    <p class="card-text">
+                    <p class="card__text">
                         Lorem ipsum dolor sit amet, consectetur <br />
                         adipiscing elit. Praesent luctus velit id ex <br />
                         vestibulum, in tristique risus tincidunt.
                     </p>
-                    <form action="#cards" class="card-form">
+                    <form action="#cards" class="card__form">
                         <button disabled>
                             Lees meer
                             <i class="fa-sharp fa-solid fa-arrow-right"></i>
