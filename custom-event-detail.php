@@ -21,8 +21,8 @@ get_header();
             <div class="row">
                 <!-- 12 Columns -->
                 <div class="col">
-                    <form class="card-type-form card-type-interview">
-                        <button class="card-type-button" disabled>
+                    <form class="card__type-form card__type-interview">
+                        <button class="card__type-button" disabled>
                             utrecht
                         </button>
                     </form>
@@ -94,9 +94,9 @@ get_header();
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
                             <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
-                            <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                                <form class="card-type-form card-type-interview">
-                                    <button class="card-type-button" disabled>
+                            <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                                <form class="card__type-form card__type-interview">
+                                    <button class="card__type-button" disabled>
                                         utrecht
                                     </button>
                                 </form>
@@ -104,16 +104,16 @@ get_header();
                             <div class="event-date">
                                 01-01-2023
                             </div>
-                            <p class="card-title">
+                            <p class="card__title">
                                 Het jaarlijkse bierpongtournooi van <br />
                                 Social Brothers
                             </p>
-                            <p class="card-text">
+                            <p class="card__text">
                                 Lorem ipsum dolor sit amet, consectetur <br />
                                 adipiscing elit. Praesent luctus velit id ex <br />
                                 vestibulum, in tristique risus tincidunt.
                             </p>
-                            <form action="#event" class="card-form">
+                            <form action="#event" class="card__form">
                                 <button disabled>
                                     Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                                 </button>
@@ -123,9 +123,9 @@ get_header();
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
                             <img src="<?php echo get_template_directory_uri() . '/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" alt="">
-                            <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                                <form class="card-type-form card-type-interview">
-                                    <button class="card-type-button" disabled>
+                            <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                                <form class="card__type-form card__type-interview">
+                                    <button class="card__type-button" disabled>
                                         utrecht
                                     </button>
                                 </form>
@@ -133,16 +133,16 @@ get_header();
                             <div class="event-date">
                                 01-01-2023
                             </div>
-                            <p class="card-title">
+                            <p class="card__title">
                                 Bootcamp op de donderdagavond <br />
                                 met Biku
                             </p>
-                            <p class="card-text">
+                            <p class="card__text">
                                 Lorem ipsum dolor sit amet, consectetur <br />
                                 adipiscing elit. Praesent luctus velit id ex <br />
                                 vestibulum, in tristique risus tincidunt.
                             </p>
-                            <form action="#event" class="card-form">
+                            <form action="#event" class="card__form">
                                 <button disabled>
                                     Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                                 </button>
@@ -152,9 +152,9 @@ get_header();
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
                             <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="card-img-top" alt="">
-                            <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                                <form class="card-type-form card-type-interview">
-                                    <button class="card-type-button" disabled>
+                            <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                                <form class="card__type-form card__type-interview">
+                                    <button class="card__type-button" disabled>
                                         utrecht
                                     </button>
                                 </form>
@@ -162,16 +162,16 @@ get_header();
                             <div class="event-date">
                                 01-01-2023
                             </div>
-                            <p class="card-title">
+                            <p class="card__title">
                                 Blijf up to date met de <br />
                                 maandafsluiting
                             </p>
-                            <p class="card-text">
+                            <p class="card__text">
                                 Lorem ipsum dolor sit amet, consectetur <br />
                                 adipiscing elit. Praesent luctus velit id ex <br />
                                 vestibulum, in tristique risus tincidunt.
                             </p>
-                            <form action="#event" class="card-form">
+                            <form action="#event" class="card__form">
                                 <button disabled>
                                     Lees meer
                                     <i class="fa-sharp fa-solid fa-arrow-right"></i>
