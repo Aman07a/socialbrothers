@@ -866,13 +866,12 @@
     .login-container {
       width: 536px;
       height: 461px;
-      /* border: 1px solid black; */
       margin: 0 auto;
       margin-top: 0;
       margin-bottom: 5rem;
     }
 
-    .login-title {
+    .login-container__title {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
       font-family: 'Roboto-Bold';
@@ -887,7 +886,7 @@
       height: 56px;
     }
 
-    .login-text {
+    .login-container__text {
       opacity: 1;
       color: rgba(0, 0, 0, 1);
       font-family: 'OpenSans';
@@ -901,7 +900,7 @@
       margin-top: 1.5rem;
     }
 
-    .login-input-border {
+    .login-container__input-border {
       display: flex;
       align-items: center;
       border-radius: 3px;
@@ -913,7 +912,7 @@
       padding: 10px;
     }
 
-    .login-input {
+    .login-container__input {
       color: rgba(25, 25, 25, 1);
       font-family: 'Roboto-Medium';
       font-size: 16px;
@@ -930,7 +929,7 @@
       outline: none;
     }
 
-    .login-button-border {
+    .login-container__button-border {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -942,7 +941,7 @@
       height: 49px;
     }
 
-    .login-button {
+    .login-container__button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
       font-family: 'Roboto-Medium', sans-serif;
