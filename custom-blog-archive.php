@@ -25,23 +25,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/53c8722145b6fd9e358adfe7b3d05479c10aa9d5.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-interview">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-interview">
+                        <button class="card__type-button" disabled>
                             interview
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     Werken bij Social Brothers, <br />
                     volgens developer Lisa
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="/blog1" class="card-form">
+                <form action="/blog1" class="card__form">
                     <button>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -51,23 +51,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/39c8d2527922794a1572cd77d584f5d9d8b56a16.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-blog">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-blog">
+                        <button class="card__type-button" disabled>
                             blog
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     Hoe stimuleer je winkelbezoek met <br />
                     technologie?
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -77,23 +77,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/bcfc80efb8ccf87d841167935c53e5c6110dfd0f.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-interview">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-interview">
+                        <button class="card__type-button" disabled>
                             interview
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     Werken bij Social Brothers, <br />
                     volgens developer Romy
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer
                         <i class="fa-sharp fa-solid fa-arrow-right"></i>
@@ -106,23 +106,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/a11b35bea09068a555b885ee67a0275905f8e845.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-blog">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-blog">
+                        <button class="card__type-button" disabled>
                             blog
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     8 voordelen van een chatbot wat je <br />
                     moet weten
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -132,23 +132,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/c247e45bad64e7ce417b495ef5b5b97be96cfc9c.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-interview">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-interview">
+                        <button class="card__type-button" disabled>
                             interview
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     Werken bij Social Brothers, <br />
                     volgens designer Maria
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -158,23 +158,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/019712613e0c43bf858dc67dcb48df9ad9b9b8fb.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-whitepaper">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-whitepaper">
+                        <button class="card__type-button" disabled>
                             whitepaper
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     Lees je in over alle voordelen van <br />
                     HubSpot
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer
                         <i class="fa-sharp fa-solid fa-arrow-right"></i>
@@ -187,23 +187,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/9a4c5e7ca7beb10f9911b04ae5a9019ca806488d.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-interview">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card-type__interview">
+                        <button class="card__type-button" disabled>
                             interview
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     Werken bij Social Brothers, <br />
                     volgens developer Bas
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -213,23 +213,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/48c89c9f0f057003d04b45e1f43714e6c3daad21.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-blog">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-blog">
+                        <button class="card__type-button" disabled>
                             blog
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     10 development trends die in 2022 <br />
                     het verschil gaan maken
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
@@ -239,23 +239,23 @@ get_header();
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/3a370dde00787da50c0c065d68c672423e24a9e5.jpg'; ?>" class="card-img-top" alt="">
-                <div class="card-img-overlay card-overlay d-flex flex-column justify-content-end">
-                    <form class="card-type-form card-type-blog">
-                        <button class="card-type-button" disabled>
+                <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
+                    <form class="card__type-form card__type-blog">
+                        <button class="card__type-button" disabled>
                             blog
                         </button>
                     </form>
                 </div>
-                <p class="card-title">
+                <p class="card__title">
                     Het belang van digitoegankelijk <br />
                     development
                 </p>
-                <p class="card-text">
+                <p class="card__text">
                     Lorem ipsum dolor sit amet, consectetur <br />
                     adipiscing elit. Praesent luctus velit id ex <br />
                     vestibulum, in tristique risus tincidunt.
                 </p>
-                <form action="#blog" class="card-form">
+                <form action="#blog" class="card__form">
                     <button disabled>
                         Lees meer
                         <i class="fa-sharp fa-solid fa-arrow-right"></i>
