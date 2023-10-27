@@ -22,7 +22,7 @@ while (have_posts()) {
     <div class="container">
         <!-- Blog -->
         <div class="blog-container__header">
-            <h3 class="blog-title">De nieuwste blogs</h3>
+            <h3 class="blog__title">De nieuwste blogs</h3>
         </div>
 
         <div class="row card-container row-gap">
@@ -110,7 +110,7 @@ while (have_posts()) {
         <!-- Events: Filter -->
         <div class="filter-container">
             <div class="event-filter__header">
-                <h3 class="event-title">Opkomende events</h3>
+                <h3 class="event__title">Opkomende events</h3>
             </div>
 
             <div class="filter">

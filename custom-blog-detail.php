@@ -22,7 +22,7 @@ get_header();
                     interview
                 </button>
             </form>
-            <h3 class="blog-title">
+            <h3 class="blog__title">
                 Werken bij Social Brothers, <br />
                 volgens developer Ryence
             </h3>
@@ -67,7 +67,7 @@ get_header();
     </div>
 
     <div class="blog-container__header">
-        <h3 class="blog-title">
+        <h3 class="blog__title">
             Gerelateerde blogs
         </h3>
 

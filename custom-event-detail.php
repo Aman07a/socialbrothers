@@ -43,7 +43,7 @@ get_header();
                 <div class="col"></div>
             </div>
 
-            <h3 class="event-detail-title">
+            <h3 class="event-detail__title">
                 Het jaarlijkse bierpongtournooi <br />
                 van Social Brothers
             </h3>
@@ -86,7 +86,7 @@ get_header();
             </p>
 
             <div class="event-detail__header">
-                <h3 class="event-detail-title">
+                <h3 class="event-detail__title">
                     Eerst volgende evenementen in Utrecht
                 </h3>
 
