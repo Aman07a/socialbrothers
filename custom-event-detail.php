@@ -48,38 +48,38 @@ get_header();
                 van Social Brothers
             </h3>
 
-            <p>
+            <p class="event-detail__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incidunt ut labore et <br />
                 dolore magna aliqua. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Commodo <br />
                 odio aenean sed adipiscing diam donec adipiscing tristique risus. Eu sem integer vitae justo eget magna <br />
                 fermentum. Tellus molestie nunc non blandit massa enim nec dui.
             </p>
 
-            <h4>Kom verkleed</h4>
+            <h4 class="event-detail__subtitle">Kom verkleed</h4>
 
-            <p>
+            <p class="event-detail__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incidunt ut labore et <br />
                 dolore magna aliqua. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Commodo <br />
                 odio aenean sed adipiscing diam donec adipiscing tristique risus. Eu sem integer vitae justo eget magna <br />
                 fermentum. Tellus molestie nunc non blandit massa enim nec dui.
             </p>
 
-            <p>
+            <p class="event-detail__text">
                 Tellus id interdum velit laoreet id donec. Eu scelerisque felis imperdiet proin. Blandit libero volutpat sed <br />
                 cras ornare arcu dui. Euismod in pellentes massa placerat duis. Dolor sed vivera ipsum nunc aliquet <br />
                 bibendum enim facilisis gravida. At elementum eu facilisis sed odio morbi quis commodo.
             </p>
 
-            <h4>Wat kan je winnen?</h4>
+            <h4 class="event-detail__subtitle">Wat kan je winnen?</h4>
 
-            <p>
+            <p class="event-detail__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incidunt ut labore et <br />
                 dolore magna aliqua. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Commodo <br />
                 odio aenean sed adipiscing diam donec adipiscing tristique risus. Eu sem integer vitae justo eget magna <br />
                 fermentum. Tellus molestie nunc non blandit massa enim nec dui.
             </p>
 
-            <p>
+            <p class="event-detail__text">
                 Tellus id interdum velit laoreet id donec. Eu scelerisque felis imperdiet proin. Blandit libero volutpat sed <br />
                 cras ornare arcu dui. Euismod in pellentes massa placerat duis. Dolor sed vivera ipsum nunc aliquet <br />
                 bibendum enim facilisis gravida. At elementum eu facilisis sed odio morbi quis commodo.
