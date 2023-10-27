@@ -75,11 +75,9 @@
       overflow: hidden;
     }
 
-    /* Default Styling for Larger Screens */
     main .container,
     header .container,
     footer .container {
-      /* Styling for Larger Screens */
       overflow: hidden;
     }
 
@@ -89,10 +87,8 @@
       main .container,
       header .container,
       footer .container {
-        /* Styling for Screens up to 991px */
         overflow: hidden;
         max-width: 100%;
-        /* Apply the max-width from .container-fluid */
       }
     }
 
