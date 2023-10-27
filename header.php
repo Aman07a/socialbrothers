@@ -113,7 +113,7 @@
       align-items: center;
       justify-content: space-between;
       height: 81px;
-      /* box-shadow: 0px 0px 10px 5px #d4d4d4; */
+      box-shadow: 0px 0px 10px 5px #d4d4d4;
       opacity: 1;
     }
 
@@ -576,10 +576,7 @@
     /* Card */
     .card-container {
       margin-top: 0.9rem;
-      /* max-content >= 1200px */
-      /* width: max-content; */
       width: auto;
-      /* border: 1px solid black; */
     }
 
     .card {
