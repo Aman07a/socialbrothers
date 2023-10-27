@@ -724,18 +724,6 @@
       }
     }
 
-    .fa-arrow-right {
-      opacity: 1;
-      color: rgba(20, 20, 20, 1);
-      font-family: 'FontAwesome5Pro-Solid', sans-serif;
-      font-size: 13px;
-      font-weight: 400;
-      font-style: normal;
-      letter-spacing: 0.22px;
-      text-align: center;
-      margin-left: 10px;
-    }
-
     /* Events */
     .event-archive__header {
       margin-top: 1.6rem;
@@ -1123,6 +1111,19 @@
 
     .pagination i {
       font-size: 20px;
+    }
+
+    /* Font Awesome Icons */
+    .fa-arrow-right {
+      opacity: 1;
+      color: rgba(20, 20, 20, 1);
+      font-family: 'FontAwesome5Pro-Solid', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.22px;
+      text-align: center;
+      margin-left: 10px;
     }
 
     .fa-chevron-left,
