@@ -779,7 +779,7 @@
       border-radius: 5px;
     }
 
-    .event-filter-form {
+    .event-filter__form {
       overflow: hidden;
       display: flex;
       align-items: center;
@@ -792,7 +792,7 @@
       padding: 10px;
     }
 
-    .event-filter-button {
+    .event-filter__button {
       opacity: 1;
       color: rgba(20, 20, 20, 1);
       font-family: 'Roboto-Medium', sans-serif;
@@ -818,12 +818,12 @@
       background-color: #ff470b;
     }
 
-    .event-filter-form:not(.event-filter--selected) {
+    .event-filter__form:not(.event-filter--selected) {
       background-color: #ffffff;
       border: 1px solid #ededed;
     }
 
-    .event-filter-button:not(.event-button--selected) {
+    .event-filter__button:not(.event-button--selected) {
       background-color: #ffffff;
       color: #141414;
     }

@@ -22,18 +22,18 @@ get_header();
         <div class="event-archive__header"></div>
 
         <div class="filter">
-            <form action="#utrecht" class="event-filter-form event-filter--selected">
-                <button class="event-filter-button event-button--selected" disabled>
+            <form action="#utrecht" class="event-filter__form event-filter--selected">
+                <button class="event-filter__button event-button--selected" disabled>
                     events utrecht
                 </button>
             </form>
-            <form action="#rotterdam" class="event-filter-form">
-                <button class="event-filter-button" disabled>
+            <form action="#rotterdam" class="event-filter__form">
+                <button class="event-filter__button" disabled>
                     events rotterdam
                 </button>
             </form>
-            <form action="#leiden" class="event-filter-form">
-                <button class="event-filter-button" disabled>
+            <form action="#leiden" class="event-filter__form">
+                <button class="event-filter__button" disabled>
                     events leiden
                 </button>
             </form>

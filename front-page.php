@@ -22,7 +22,7 @@ while (have_posts()) {
     <div class="container">
         <!-- Blog -->
         <div class="blog-container__header">
-            <h3 class="blog__title">De nieuwste blogs</h3>
+            <h3 class="blog-container__title">De nieuwste blogs</h3>
         </div>
 
         <div class="row card-container row-gap">
@@ -114,18 +114,18 @@ while (have_posts()) {
             </div>
 
             <div class="filter">
-                <form action="#utrecht" class="event-filter-form event-filter--selected">
-                    <button class="event-filter-button event-button--selected" disabled>
+                <form action="#utrecht" class="event-filter__form event-filter--selected">
+                    <button class="event-filter__button event-button--selected" disabled>
                         events utrecht
                     </button>
                 </form>
-                <form action="#rotterdam" class="event-filter-form">
-                    <button class="event-filter-button" disabled>
+                <form action="#rotterdam" class="event-filter__form">
+                    <button class="event-filter__button" disabled>
                         events rotterdam
                     </button>
                 </form>
-                <form action="#leiden" class="event-filter-form">
-                    <button class="event-filter-button" disabled>
+                <form action="#leiden" class="event-filter__form">
+                    <button class="event-filter__button" disabled>
                         events leiden
                     </button>
                 </form>
