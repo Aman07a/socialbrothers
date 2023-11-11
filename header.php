@@ -1077,7 +1077,7 @@
       height: 40px;
     }
 
-    .pagination__block {
+   .page-numbers {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1090,7 +1090,7 @@
       height: 40px;
     }
 
-    .pagination__block--active {
+    .current {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1186,4 +1186,4 @@
 
   do_action('after_body');
 
-  get_template_part('partials/header');
+get_template_part('partials/header');
