@@ -105,3 +105,15 @@ function create_event_post_type()
 }
 
 add_action('init', 'create_event_post_type');
+
+function enable_tags_for_blog()
+{
+    register_taxonomy_for_object_type('post_tag', 'blog');
+}
+add_action('init', 'enable_tags_for_blog');
+
+function enable_tags_for_event()
+{
+    register_taxonomy_for_object_type('post_tag', 'event');
+}
+add_action('init', 'enable_tags_for_event');
