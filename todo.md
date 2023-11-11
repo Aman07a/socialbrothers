@@ -35,3 +35,5 @@ TODO:
 ## extra: filter
 
 ### search results page
+
+## Formatted Event Date TimeZone dd/mm/yy
