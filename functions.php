@@ -99,9 +99,74 @@ function create_event_post_type()
         'supports' => ['title', 'editor', 'thumbnail'],
         'show_in_rest' => true,
         'taxonomies' => ['category', 'type'],
+        'register_meta_box_cb' => 'add_event_date_metabox', // Callback function to add meta box
     ];
 
     register_post_type('event', $args);
+}
+
+// Callback function to add meta box for event_date
+function add_event_date_metabox()
+{
+    add_meta_box(
+        'event_date_metabox',
+        __('Event Date', '_SBB'),
+        'render_event_date_metabox',
+        'event',
+        'side',
+        'default'
+    );
+}
+
+// Callback function to render the content of the event_date meta box
+function render_event_date_metabox($post)
+{
+    // Retrieve the current value of the event_date meta field
+    $event_date = get_post_meta($post->ID, '_event_date', true);
+
+    // Output the HTML input field
+    ?>
+    <label for="event_date"><?php _e('Event Date:', '_SBB'); ?></label>
+    <input type="date" id="event_date" name="event_date" value="<?php echo esc_attr($event_date); ?>" />
+    <?php
+}
+
+// Save the meta box data
+add_action('save_post_event', 'save_event_date_metabox');
+function save_event_date_metabox($post_id)
+{
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    if (isset($_POST['event_date'])) {
+        update_post_meta($post_id, '_event_date', sanitize_text_field($_POST['event_date']));
+    }
+}
+
+// Register the custom meta field for REST API
+register_rest_field('event', 'event_date', [
+    'get_callback' => 'get_event_date',
+    'update_callback' => 'update_event_date',
+    'schema' => null,
+]);
+
+// Callback function to get the value of the event_date field
+function get_event_date($object, $field_name, $request)
+{
+    return get_post_meta($object['id'], '_event_date', true);
+}
+
+// Callback function to update the value of the event_date field
+function update_event_date($value, $object, $field_name)
+{
+    if (is_string($value) && strtotime($value)) {
+        update_post_meta($object->ID, '_event_date', $value);
+
+        return true;
+    }
+
+    return false;
 }
 
 add_action('init', 'create_event_post_type');
