@@ -1,8 +1,10 @@
-<?php defined('ABSPATH') || exit('Forbidden');
+<?php
+
+defined('ABSPATH') || exit('Forbidden');
 
 /**
  * Register custom taxonomies.
- * 
+ *
  * @see https://developer.wordpress.org/reference/functions/register_taxonomy/
  */
 function taxonomies_init(): void
@@ -12,15 +14,15 @@ function taxonomies_init(): void
         'blog',
         [
             'labels' => [
-                'name'          => __('Categories', '_SBB'),
+                'name' => __('Categories', '_SBB'),
                 'singular_name' => __('Category', '_SBB'),
             ],
 
-            'public'            => false,
-            'show_ui'           => true,
+            'public' => false,
+            'show_ui' => true,
             'show_admin_column' => true,
-            'rewrite'           => false,
-            'hierarchical'      => true,
+            'rewrite' => false,
+            'hierarchical' => true,
         ]
     );
 }
