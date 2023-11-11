@@ -153,7 +153,8 @@ get_header();
             </div>
         </div>
     </div>
+</div>
 
-    <?php
+<?php
 
-    get_footer();
+get_footer();
