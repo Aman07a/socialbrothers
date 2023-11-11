@@ -10,7 +10,7 @@ get_header();
 <!-- Medium Banner -->
 <div class="md-h-banner">
     <div class="image-container">
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" alt="Image" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri().'/assets/images/8d6cb4608c3a0c50624325b0a2b4d0142822345b.jpg'; ?>" alt="Image" class="img-fluid">
     </div>
 </div>
 
@@ -74,7 +74,7 @@ get_header();
         <div class="row card-container row-gap">
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/9a4c5e7ca7beb10f9911b04ae5a9019ca806488d.jpg'; ?>" class="card-img-top" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/assets/images/9a4c5e7ca7beb10f9911b04ae5a9019ca806488d.jpg'; ?>" class="card-img-top" alt="">
                     <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                         <form class="card__type-form card__type-interview">
                             <button class="card__type-button" disabled>
@@ -100,7 +100,7 @@ get_header();
             </div>
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/53c8722145b6fd9e358adfe7b3d05479c10aa9d5.jpg'; ?>" class="card-img-top" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/assets/images/53c8722145b6fd9e358adfe7b3d05479c10aa9d5.jpg'; ?>" class="card-img-top" alt="">
                     <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                         <form class="card__type-form card__type-interview">
                             <button class="card__type-button" disabled>
@@ -126,7 +126,7 @@ get_header();
             </div>
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/images/ed25aee744d9f6b5be4295767984a2151c31fb7f.jpg'; ?>" class="card-img-top" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/assets/images/ed25aee744d9f6b5be4295767984a2151c31fb7f.jpg'; ?>" class="card-img-top" alt="">
                     <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                         <form class="card__type-form card__type-interview">
                             <button class="card__type-button" disabled>

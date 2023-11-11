@@ -11,7 +11,7 @@ get_header();
 <!-- Medium Width Banner -->
 <div class="sm-w-banner">
     <div class="image-container">
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/215d1c7002ed987517e77ded5f92d0e6489e9f01.jpg'; ?>" alt="Image" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri().'/assets/images/215d1c7002ed987517e77ded5f92d0e6489e9f01.jpg'; ?>" alt="Image" class="img-fluid">
         <div class="search-banner-container">
             <div class="search-banner-container__cover">
                 <h2 class="search-banner-container__title">Zoekresultaten</h2>
@@ -47,7 +47,7 @@ get_header();
         <!-- Row 1 -->
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/3842730d227ca41a9eacec4c1ef38b12c1d9acfd.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri().'/assets/images/3842730d227ca41a9eacec4c1ef38b12c1d9acfd.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                     <form class="card__type-form card__type-blog">
                         <button class="card__type-button" disabled>
@@ -73,7 +73,7 @@ get_header();
         </div>
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/39c8d2527922794a1572cd77d584f5d9d8b56a16.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri().'/assets/images/39c8d2527922794a1572cd77d584f5d9d8b56a16.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                     <form class="card__type-form card__type-interview">
                         <button class="card__type-button" disabled>
@@ -102,7 +102,7 @@ get_header();
         </div>
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/ed25aee744d9f6b5be4295767984a2151c31fb7f.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri().'/assets/images/ed25aee744d9f6b5be4295767984a2151c31fb7f.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                     <form class="card__type-form card__type-interview">
                         <button class="card__type-button" disabled>
@@ -131,7 +131,7 @@ get_header();
         <!-- Row 2 -->
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/a11b35bea09068a555b885ee67a0275905f8e845.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri().'/assets/images/a11b35bea09068a555b885ee67a0275905f8e845.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                     <form class="card__type-form card__type-blog">
                         <button class="card__type-button" disabled>
@@ -157,7 +157,7 @@ get_header();
         </div>
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/3a370dde00787da50c0c065d68c672423e24a9e5.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri().'/assets/images/3a370dde00787da50c0c065d68c672423e24a9e5.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                     <form class="card__type-form card__type-interview">
                         <button class="card__type-button" disabled>
@@ -183,7 +183,7 @@ get_header();
         </div>
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/48c89c9f0f057003d04b45e1f43714e6c3daad21.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri().'/assets/images/48c89c9f0f057003d04b45e1f43714e6c3daad21.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                     <form class="card__type-form card__type-interview">
                         <button class="card__type-button" disabled>
@@ -215,7 +215,7 @@ get_header();
         <!-- Row 3 -->
         <div class="col-xl-4 col-lg-6 auto">
             <div class="card auto">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/9d88703d51b5aff2bfaf980e38bedfb8eb018779.jpg'; ?>" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri().'/assets/images/9d88703d51b5aff2bfaf980e38bedfb8eb018779.jpg'; ?>" class="card-img-top" alt="">
                 <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                     <form class="card__type-form card__type-interview">
                         <button class="card__type-button" disabled>
