@@ -700,6 +700,10 @@
       background-color: #fff;
     }
 
+    .card__ml {
+      margin-left: 0.1rem;
+    }
+
     @media (min-width: 500px) and (max-width: 992px) {
       .card-container {
         display: flex;
