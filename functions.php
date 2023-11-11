@@ -97,7 +97,8 @@ function create_event_post_type()
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => ['title', 'editor', 'thumbnail'],
-        'taxonomies' => ['category'],
+        'show_in_rest' => true,
+        'taxonomies' => ['category', 'type'],
     ];
 
     register_post_type('event', $args);
