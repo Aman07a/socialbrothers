@@ -416,7 +416,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.5);
+      /* background: rgba(0, 0, 0, 0.5); */
     }
 
     .md-h-banner .image-container {
@@ -1081,7 +1081,7 @@
       height: 40px;
     }
 
-   .page-numbers {
+    .page-numbers {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1127,7 +1127,7 @@
     .fa-chevron-right {
       opacity: 0.24;
       color: rgba(20, 20, 20, 1);
-      font-family: "FontAwesome5Pro-Solid", sans-serif;
+      font-family: 'FontAwesome5Pro-Solid', sans-serif;
       font-size: 24px;
       font-weight: 400;
       font-style: normal;
