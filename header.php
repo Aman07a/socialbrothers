@@ -218,6 +218,7 @@
       text-align: center;
       width: 4rem;
       height: 2.7rem;
+      margin-right: 1.7rem;
     }
 
     .navigation__login {
@@ -251,6 +252,10 @@
     }
 
     @media (max-width: 1199.49px) {
+      .navigation__search {
+        margin-right: 0.5rem;
+      }
+
       .navigation__login {
         width: 85px;
       }
