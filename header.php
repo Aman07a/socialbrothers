@@ -82,7 +82,7 @@
     }
 
     /* Media Query for Screens up to 991px */
-    @media (max-width: 991px) {
+    @media (max-width: 991.9px) {
 
       main .container,
       header .container,
@@ -195,6 +195,7 @@
       font-style: normal;
       letter-spacing: 0px;
       text-align: start;
+      gap: 3.3rem;
     }
 
     .submenu {
@@ -202,6 +203,7 @@
       align-items: center;
       justify-content: space-between;
       height: 100%;
+      margin-left: 3.3rem;
     }
 
     .navigation__search {
@@ -245,19 +247,49 @@
       letter-spacing: 0px;
     }
 
-    @media (min-width: 1199.5px) and (max-width: 1399px) {
+    @media (min-width: 1199.5px) and (max-width: 1399.5px) {
+      .navigation-menu {
+        gap: 2.1rem;
+      }
+
+      .submenu {
+        margin-left: 1.7rem;
+      }
+
       .navigation__login {
         width: 100px;
       }
     }
 
     @media (max-width: 1199.49px) {
+      .navigation-menu {
+        gap: 1rem;
+      }
+
+      .submenu {
+        margin-left: 0.7rem;
+      }
+
       .navigation__search {
         margin-right: 0.5rem;
       }
 
       .navigation__login {
         width: 85px;
+      }
+    }
+
+    @media (max-width: 991.5px) {
+      .navigation-menu {
+        gap: 2rem;
+      }
+
+      .submenu {
+        margin-left: 1.5rem;
+      }
+
+      .navigation__search {
+        margin-right: 0.9rem;
       }
     }
 
