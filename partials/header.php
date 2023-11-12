@@ -35,13 +35,13 @@
             if (modalButton) {
               modalButton.addEventListener("click", function(event) {
                 if (!isFrontPage()) {
-                  window.location.href = home_url("/");
+                  window.location.href = "/";
                 }
               });
             }
 
             function isFrontPage() {
-              return window.location.pathname === home_url("/");
+              return window.location.pathname === "/";
             }
             if (!isFrontPage()) {
               modalButton.removeAttribute("data-bs-toggle");
