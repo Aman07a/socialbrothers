@@ -204,3 +204,14 @@ function add_anchor_class($attr, $item, $args)
     return $attr;
 }
 add_filter('nav_menu_link_attributes', 'add_anchor_class', 10, 3);
+
+function theme_setup()
+{
+    register_nav_menus(
+        array(
+            'footer-menu' => __('Footer Menu', '_SBB'),
+        )
+    );
+}
+
+add_action('after_setup_theme', 'theme_setup');
