@@ -3,7 +3,7 @@
 defined('ABSPATH') || exit('Forbidden');
 
 // Require theme files
-require_once get_template_directory().'/lib/init.php';
+require_once get_template_directory() . '/lib/init.php';
 
 /*
  * Disable Gutenberg block editor
@@ -14,7 +14,7 @@ add_filter('use_block_editor_for_post', '__return_false', 10, 0);
 
 function enqueue_bootstrap_css()
 {
-    wp_enqueue_style('bootstrap-css', get_template_directory_uri().'/dist/bootstrap.min.css');
+    wp_enqueue_style('bootstrap-css', get_template_directory_uri() . '/dist/bootstrap.min.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_bootstrap_css');
 
@@ -125,10 +125,10 @@ function render_event_date_metabox($post)
     $event_date = get_post_meta($post->ID, '_event_date', true);
 
     // Output the HTML input field
-    ?>
+?>
     <label for="event_date"><?php _e('Event Date:', '_SBB'); ?></label>
     <input type="date" id="event_date" name="event_date" value="<?php echo esc_attr($event_date); ?>" />
-    <?php
+<?php
 }
 
 // Save the meta box data
@@ -182,3 +182,25 @@ function enable_tags_for_event()
     register_taxonomy_for_object_type('post_tag', 'event');
 }
 add_action('init', 'enable_tags_for_event');
+
+add_theme_support('menus');
+
+register_nav_menus(array(
+    'top-menu' => __('Top Menu', 'theme')
+));
+function add_class_li($classes, $item, $args)
+{
+    if (isset($args->li_class)) {
+        $classes[] = $args->li_class;
+    }
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'add_class_li', 10, 3);
+function add_anchor_class($attr, $item, $args)
+{
+    if (isset($args->a_class)) {
+        $attr['class'] = $args->a_class;
+    }
+    return $attr;
+}
+add_filter('nav_menu_link_attributes', 'add_anchor_class', 10, 3);
