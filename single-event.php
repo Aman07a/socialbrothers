@@ -113,6 +113,13 @@ get_header();
                     'orderby' => 'date',
                     'order' => 'ASC',
                     'paged' => $paged,
+                    'tax_query' => array(
+                        array(
+                            'taxonomy' => 'category',
+                            'field' => 'slug',
+                            'terms' => 'utrecht',
+                        ),
+                    ),
                 ];
 
                 $event_query = new WP_Query($event_args);
