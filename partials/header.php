@@ -6,12 +6,11 @@
       <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
         <img class="navigation__logo" src="https://socialbrothers.nl/wp-content/uploads/2021/11/sb-logo.svg" alt="Logo">
       </a>
-      <div class="d-flex navigation-items ml-auto" id="navbarText">
+      <div class="d-flex ms-auto ml-auto align-items-center justify-content-between" id="navbarText">
         <?php
         wp_nav_menu(array(
           'menu' => 'top-menu',
-          'menu_id' => 'navigation',
-          'menu_class' => 'navbar-nav',
+          'menu_class' => 'navigation-menu navbar-nav',
           'container' => '',
           'li_class' => 'nav-item',
           'active_class' => 'active',
@@ -19,56 +18,51 @@
         ));
         ?>
 
-        <!-- Bootstrap: Modal -->
-        <div class="d-flex me-4">
+        <div class="submenu">
+          <!-- Bootstrap: Search -->
           <div class="navigation__search">
             <button type="button" class="modal-button border-0" id="modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
-        </div>
 
-        <!-- Only open modal on the home page; if not, will be redirected to the home page -->
-        <?php if (!is_front_page()) { ?>
-          <script>
-            const modalButton = document.getElementById("modal-button");
-            if (modalButton) {
-              modalButton.addEventListener("click", function(event) {
-                if (!isFrontPage()) {
-                  window.location.href = "/";
-                }
-              });
-            }
+          <!-- Only open modal on the home page; if not, will be redirected to the home page -->
+          <?php if (!is_front_page()) { ?>
+            <script>
+              const modalButton = document.getElementById("modal-button");
+              if (modalButton) {
+                modalButton.addEventListener("click", function(event) {
+                  if (!isFrontPage()) {
+                    window.location.href = "/";
+                  }
+                });
+              }
 
-            function isFrontPage() {
-              return window.location.pathname === "/";
-            }
-            if (!isFrontPage()) {
-              modalButton.removeAttribute("data-bs-toggle");
-              modalButton.removeAttribute("data-bs-target");
-            }
-          </script>
-        <?php } ?>
+              function isFrontPage() {
+                return window.location.pathname === "/";
+              }
+              if (!isFrontPage()) {
+                modalButton.removeAttribute("data-bs-toggle");
+                modalButton.removeAttribute("data-bs-target");
+              }
+            </script>
+          <?php } ?>
 
-        <!-- Validating if the user is already logged in -->
-        <?php if (is_user_logged_in()) { ?>
-          <div class="me-3">
+          <!-- Validating if the user is already logged in -->
+          <?php if (is_user_logged_in()) { ?>
             <a href="<?php echo wp_logout_url(home_url('/')); ?>" class="navigation__login">
               <div class="navigation__login__border">
                 Logout
               </div>
             </a>
-          </div>
-        <?php } else { ?>
-          <div class="me-3">
+          <?php } else { ?>
             <a href="<?php echo esc_url(home_url('/login')); ?>" class="navigation__login">
               <div class="navigation__login__border">
                 Login
               </div>
             </a>
-          </div>
-        <?php } ?>
-      </div>
+          <?php } ?>
+        </div>
     </nav>
   </div>
 </header>

@@ -178,10 +178,15 @@
       height: 81px;
     }
 
-    #navigation {
+    .navigation__logo {
+      opacity: 1;
+      width: 187px;
+      height: 40px;
+    }
+
+    .navigation-menu {
       display: flex;
       flex-direction: row;
-      gap: 3.3rem;
       opacity: 1;
       color: rgba(0, 0, 0, 1);
       font-family: 'Roboto-Medium', sans-serif;
@@ -190,24 +195,19 @@
       font-style: normal;
       letter-spacing: 0px;
       text-align: start;
-      line-height: 24px;
-      margin-right: 2.3rem;
     }
 
-    .navigation__logo {
-      opacity: 1;
-      width: 187px;
-      height: 40px;
-    }
-
-    .navigation-items {
-      justify-content: end;
+    .submenu {
+      display: flex;
       align-items: center;
-      gap: 2rem;
-      margin-left: auto;
+      justify-content: space-between;
+      height: 100%;
     }
 
     .navigation__search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       opacity: 1;
       color: rgba(0, 0, 0, 1);
       font-family: 'FontAwesome5Pro-Solid', sans-serif;
@@ -216,6 +216,8 @@
       font-style: normal;
       letter-spacing: 0px;
       text-align: center;
+      width: 4rem;
+      height: 2.7rem;
     }
 
     .navigation__login {
@@ -226,12 +228,10 @@
       border: 3px solid rgba(20, 20, 20, 1);
       opacity: 1;
       background-color: rgba(255, 255, 255, 1);
-      min-width: 121px;
-      width: 100%;
-      padding: 1rem 1rem 1rem;
+      width: 124.83px;
       height: 49px;
-      flex: 1;
       text-align: center;
+      margin-right: 0.8rem;
     }
 
     .navigation__login__border {
@@ -242,9 +242,18 @@
       font-weight: 600;
       font-style: normal;
       letter-spacing: 0px;
-      line-height: 24px;
-      width: auto;
-      height: 24px;
+    }
+
+    @media (min-width: 1199.5px) and (max-width: 1399px) {
+      .navigation__login {
+        width: 100px;
+      }
+    }
+
+    @media (max-width: 1199.49px) {
+      .navigation__login {
+        width: 85px;
+      }
     }
 
     /* Popup / Modal */
