@@ -1212,6 +1212,10 @@
     .footer-link {
       color: #ededed;
     }
+
+    .footer-link:hover {
+      color: #ededed !important;
+    }
   </style>
 </head>
 
