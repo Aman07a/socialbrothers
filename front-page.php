@@ -124,23 +124,27 @@ get_header();
             <h3 class="event__title">Opkomende events</h3>
         </div>
 
-        <div class="filter">
-            <div class="event-filter__form event-filter--selected">
-                <button class="event-filter__button event-button--selected" onclick="toggleCategory(this)" data-category="utrecht">
+        <?php
+        $default_category_event = isset($_GET['events']) ? sanitize_text_field($_GET['events']) : 'utrecht';
+        ?>
+
+        <form action="<?php echo esc_url(home_url()); ?>" method="get" class="filter">
+            <div class="event-filter__form <?php echo ($default_category_event === 'utrecht') ? 'event-filter--selected' : ''; ?>">
+                <button class="event-filter__button <?php echo ($default_category_event === 'utrecht') ? 'event-button--selected' : ''; ?>" name="events" value="utrecht">
                     events utrecht
                 </button>
             </div>
-            <div class="event-filter__form">
-                <button class="event-filter__button" onclick="toggleCategory(this)" data-category="rotterdam">
+            <div class="event-filter__form <?php echo ($default_category_event === 'rotterdam') ? 'event-filter--selected' : ''; ?>">
+                <button class="event-filter__button <?php echo ($default_category_event === 'rotterdam') ? 'event-button--selected' : ''; ?>" name="events" value="rotterdam">
                     events rotterdam
                 </button>
             </div>
-            <div class="event-filter__form">
-                <button class="event-filter__button" onclick="toggleCategory(this)" data-category="leiden">
+            <div class="event-filter__form <?php echo ($default_category_event === 'leiden') ? 'event-filter--selected' : ''; ?>">
+                <button class="event-filter__button <?php echo ($default_category_event === 'leiden') ? 'event-button--selected' : ''; ?>" name="events" value="leiden">
                     events leiden
                 </button>
             </div>
-        </div>
+        </form>
     </div>
 
     <!-- Events -->
@@ -148,10 +152,17 @@ get_header();
         <?php
         // WP_Query for Events
         $event_args = [
-            'post_type' => 'event', // Specify your custom post type here
-            'posts_per_page' => 3, // Display only 3 posts
-            'orderby' => 'date',  // Order by date
-            'order' => 'ASC',  // Order in descending order
+            'post_type' => 'event',
+            'posts_per_page' => 3,
+            'orderby' => 'date',
+            'order' => 'ASC',
+            'tax_query' => [
+                [
+                    'taxonomy' => 'category',
+                    'field' => 'name',
+                    'terms' => $default_category_event,
+                ],
+            ],
         ];
 
         $event_query = new WP_Query($event_args);
@@ -204,6 +215,8 @@ get_header();
                 $events_posts_array,
                 JSON_PRETTY_PRINT
             );
+
+            // var_dump($json_events_data);
 
             // Decode the JSON data
             $events_posts_data = json_decode($json_events_data, true);
