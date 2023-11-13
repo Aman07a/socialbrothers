@@ -45,7 +45,7 @@ get_header();
 
     <div class="search-results__text">
         <?php
-        // Custom WP_Query to get posts with the specified tag for 'blog' and 'evebnt' post types
+        // Custom WP_Query to get posts with the specified tag for 'blog' and 'event' post types
         $tag_query = new WP_Query([
             'tag' => $default_tag,
             'post_type' => ['blog', 'event'], // Include multiple post types
