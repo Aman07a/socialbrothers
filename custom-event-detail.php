@@ -11,7 +11,7 @@ get_header();
 <!-- Medium Width Banner -->
 <div class="md-w-banner">
     <div class="image-container">
-        <img src="<?php echo get_template_directory_uri().'/assets/images/809d99094cf8f61e5777b3f1ca16f603ac613fe7.jpg'; ?>" alt="Image" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/809d99094cf8f61e5777b3f1ca16f603ac613fe7.jpg'; ?>" alt="Image" class="img-fluid">
     </div>
 </div>
 
@@ -93,7 +93,7 @@ get_header();
                 <div class="row card-container row-gap">
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
-                            <img src="<?php echo get_template_directory_uri().'/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
                             <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                                 <form class="card__type-form card__type-interview">
                                     <button class="card__type-button" disabled>
@@ -122,7 +122,7 @@ get_header();
                     </div>
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
-                            <img src="<?php echo get_template_directory_uri().'/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/09430a3f35a25fe2ba038840a7d4b99ba6e39942.jpg'; ?>" alt="">
                             <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                                 <form class="card__type-form card__type-interview">
                                     <button class="card__type-button" disabled>
@@ -151,7 +151,7 @@ get_header();
                     </div>
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
-                            <img src="<?php echo get_template_directory_uri().'/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="card-img-top" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/7bf8b7439accaae1dbcb6690298ed5dd6b196eb0.jpg'; ?>" class="card-img-top" alt="">
                             <div class="card-img-overlay card__overlay d-flex flex-column justify-content-end">
                                 <form class="card__type-form card__type-interview">
                                     <button class="card__type-button" disabled>
