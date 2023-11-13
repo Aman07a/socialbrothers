@@ -1,10 +1,10 @@
 TODO:
 
-## home_url()
+## home_url() ✅
 
-## wp_menu()
+## wp_menu() ✅
 
-## wp_query()
+## wp_query() ✅
 
 ### home page ✅
 
@@ -12,19 +12,19 @@ TODO:
 
 ### events archive page ✅
 
-### blog detail page
+### blog detail page ✅
 
-### event detail page
+### event detail page ✅
 
 ### search results page ✅
 
-## details
+## details ✅
 
-### blog detail page
+### blog detail page ✅
 
-### event detail page
+### event detail page ✅
 
-## pagination
+## pagination ✅
 
 ### blog archive page ✅
 
@@ -33,6 +33,8 @@ TODO:
 ### search results page
 
 ## extra: filter
+
+### home page: upcoming events
 
 ### search results page
 
