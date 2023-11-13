@@ -21,13 +21,16 @@ get_header();
 </div>
 
 <div class="container">
+    <?php
+    $default_tag = isset($_GET['search']) ? sanitize_text_field($_GET['search']) : 'development';
+    ?>
     <div class="search-results__header">
-        <form action="#search-results?search=development" class="search-results__form">
+        <form action="<?php echo esc_url(home_url('search-results')); ?>" method="get" class="search-results__form">
             <div class="search-results__input-border">
-                <input type="text" name="search" id="search" class="search-results__input" placeholder="development" disabled>
+                <input type="text" name="search" id="search" class="search-results__input" placeholder="Zoek hier...">
             </div>
             <div class="search-results__button-border">
-                <button class="search-results__button" disabled>
+                <button class="search-results__button">
                     Zoeken
                 </button>
             </div>
@@ -36,17 +39,15 @@ get_header();
 
     <div class="search-results__header">
         <div class="search-results__title">
-            Alle zoekresultaten voor “development”
+            Alle zoekresultaten voor “<?php echo $default_tag; ?>”
         </div>
     </div>
 
     <div class="search-results__text">
         <?php
-        $tag = 'development';
-
         // Custom WP_Query to get posts with the specified tag for 'blog' and 'evebnt' post types
         $tag_query = new WP_Query([
-            'tag' => $tag,
+            'tag' => $default_tag,
             'post_type' => ['blog', 'event'], // Include multiple post types
             'posts_per_page' => -1, // Display all posts
         ]);
@@ -71,7 +72,7 @@ get_header();
                 [
                     'taxonomy' => 'post_tag',
                     'field' => 'name',
-                    'terms' => 'development',
+                    'terms' => $default_tag,
                 ],
             ],
         ];
