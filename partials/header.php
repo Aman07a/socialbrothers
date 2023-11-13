@@ -30,17 +30,19 @@
           <?php if (!is_front_page()) { ?>
             <script>
               const modalButton = document.getElementById("modal-button");
+
               if (modalButton) {
                 modalButton.addEventListener("click", function(event) {
                   if (!isFrontPage()) {
-                    window.location.href = "/";
+                    window.location.href = "<?php echo esc_url(home_url('/')); ?>";
                   }
                 });
               }
 
               function isFrontPage() {
-                return window.location.pathname === "/";
+                return window.location.pathname === "<?php echo esc_url(home_url('/')); ?>";
               }
+
               if (!isFrontPage()) {
                 modalButton.removeAttribute("data-bs-toggle");
                 modalButton.removeAttribute("data-bs-target");
