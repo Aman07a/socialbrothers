@@ -30,12 +30,12 @@ TODO:
 
 ### events archive page ✅
 
-### search results page
+### search results page ✅
 
-## extra: filter
+## extra: filter ✅
 
-### home page: upcoming events
+### home page: upcoming events ✅
 
-### search results page
+### search results page ✅
 
-## Formatted Event Date TimeZone dd/mm/yy
+## Formatted Event Date TimeZone dd/mm/yy ✅
