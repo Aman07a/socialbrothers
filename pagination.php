@@ -9,7 +9,7 @@
     if ($current__post) {
         $current__page__slug = $current__post->post_name;
     } else {
-        $current__page__slug = $current_page_id;
+        $current__page__slug = $current__page__id;
     }
 
     $default__category__event = isset($_GET['events']) ? sanitize_text_field($_GET['events']) : 'utrecht';
