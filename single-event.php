@@ -14,44 +14,31 @@ get_header();
     <div class="event-detail-container">
         <div class="event-detail__header">
             <div class="row">
-                <!-- 12 Columns -->
-                <div class="col">
-                    <?php
-                    // Get the categories for the current page
-                    $categories = get_the_category(get_the_ID());
+                <?php
+                // Get the categories for the current page
+                $categories = get_the_category(get_the_ID());
 
-                    // Check if there are categories
-                    if (!empty($categories)) {
-                    ?>
-                        <form class="card__type-form card__type-<?php echo esc_attr($categories[0]->slug); ?>">
-                            <button class="card__type-button" disabled>
-                                <?php echo esc_html($categories[0]->name); ?>
-                            </button>
-                        </form>
-                    <?php } ?>
-                </div>
-                <div class="col-2">
-                    <?php
-                    // Get custom field (e.g., event date)
-                    $event_date = get_post_meta(get_the_ID(), '_event_date', true);
+                // Check if there are categories
+                if (!empty($categories)) {
+                ?>
+                    <form class="card__type-form card__type-<?php echo esc_attr($categories[0]->slug); ?> card__type-form_ml">
+                        <button class="card__type-button" disabled>
+                            <?php echo esc_html($categories[0]->name); ?>
+                        </button>
+                    </form>
+                <?php } ?>
 
-                    // Display the event date
-                    if (!empty($event_date)) {
-                    ?>
-                        <div class="event__date">
-                            <?php echo esc_html($event_date); ?>
-                        </div>
-                    <?php } ?>
-                </div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <?php
+                // Get custom field (e.g., event date)
+                $event_date = get_post_meta(get_the_ID(), '_event_date', true);
+
+                // Display the event date
+                if (!empty($event_date)) {
+                ?>
+                    <div class="mr-2 event__date">
+                        <?php echo esc_html($event_date); ?>
+                    </div>
+                <?php } ?>
             </div>
 
             <h3 class="event-detail__title">
@@ -217,7 +204,6 @@ get_header();
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <?php

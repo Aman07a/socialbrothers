@@ -666,6 +666,10 @@
       height: 32px;
     }
 
+    .card__type-form_ml {
+      margin-left: 1rem !important;
+    }
+
     .card__type-interview {
       width: 85px !important;
     }
@@ -789,7 +793,7 @@
       text-align: left;
       margin-top: 0.55rem;
       margin-bottom: -0.5rem;
-      width: 80px;
+      width: 90px;
       height: 17px;
     }
 
