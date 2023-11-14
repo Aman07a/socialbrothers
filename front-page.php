@@ -189,6 +189,8 @@ get_header();
                 if (has_term('events', 'type', get_the_ID())) {
                     $event__date = get_post_meta(get_the_ID(), '_event_date', true);
 
+                    $formatted__event__date = date('d-m-Y', strtotime($event__date));
+
                     $event__post__data = [
                         'ID' => get_the_ID(),
                         'post_title' => get_the_title(),
@@ -196,7 +198,7 @@ get_header();
                         'post_name' => get_post_field('post_name'),
                         'type' => wp_get_post_terms(get_the_ID(), 'type'),
                         'categories' => $event_category_names,
-                        'date' => $event__date,
+                        'date' => $formatted__event__date,
                         'featured_image' => get_the_post_thumbnail_url(
                             get_the_ID(),
                             'full'
