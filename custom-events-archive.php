@@ -21,23 +21,7 @@ get_header();
     <div class="filter-container">
         <div class="event-archive__header"></div>
 
-        <div class="filter">
-            <form action="#utrecht" class="event-filter__form event-filter--selected">
-                <button class="event-filter__button event-button--selected" disabled>
-                    events utrecht
-                </button>
-            </form>
-            <form action="#rotterdam" class="event-filter__form">
-                <button class="event-filter__button" disabled>
-                    events rotterdam
-                </button>
-            </form>
-            <form action="#leiden" class="event-filter__form">
-                <button class="event-filter__button" disabled>
-                    events leiden
-                </button>
-            </form>
-        </div>
+        <?php include get_template_directory() . '/pagination.php'; ?>
     </div>
 
     <!-- Events -->
@@ -52,6 +36,13 @@ get_header();
             'posts_per_page' => 9,
             'orderby' => 'date',
             'order' => 'ASC',
+            'tax_query' => [
+                [
+                    'taxonomy' => 'category',
+                    'field' => 'name',
+                    'terms' => $default__category__event,
+                ],
+            ],
             'paged' => $paged,
         ];
 
