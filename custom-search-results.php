@@ -48,8 +48,8 @@ get_header();
         // Custom WP_Query to get posts with the specified tag for 'blog' and 'event' post types
         $tag_query = new WP_Query([
             'tag' => $default_tag,
-            'post_type' => ['blog', 'event'], // Include multiple post types
-            'posts_per_page' => -1, // Display all posts
+            'post_type' => ['blog', 'event'],
+            'posts_per_page' => -1,
         ]);
 
         echo $tag_query->found_posts . ' resultaten';
@@ -127,6 +127,8 @@ get_header();
                 if (has_term('events', 'type', get_the_ID())) {
                     $event_date = get_post_meta(get_the_ID(), '_event_date', true);
 
+                    $formatted__event__date = date('d-m-Y', strtotime($event_date));
+
                     $events_data = [
                         'ID' => get_the_ID(),
                         'post_title' => get_the_title(),
@@ -135,7 +137,7 @@ get_header();
                         'type' => wp_get_post_terms(get_the_ID(), 'type'),
                         'categories' => $category_names,
                         'tags' => $tag_names,
-                        'date' => $event_date,
+                        'date' => $formatted__event__date,
                         'featured_image' => get_the_post_thumbnail_url(get_the_ID(), 'full'),
                     ];
 
@@ -153,8 +155,6 @@ get_header();
                 $search_posts_array,
                 JSON_PRETTY_PRINT
             );
-
-            // echo $json_search_data;
 
             // Decode the JSON data
             $search_posts_data = json_decode($json_search_data, true);
