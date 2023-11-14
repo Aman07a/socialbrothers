@@ -22,7 +22,7 @@ get_header();
 
 <div class="container">
     <?php
-    $default_tag = isset($_GET['search']) ? sanitize_text_field($_GET['search']) : 'development';
+    $default__tag = isset($_GET['search']) ? sanitize_text_field($_GET['search']) : 'development';
     ?>
     <div class="search-results__header">
         <form action="<?php echo esc_url(home_url('search-results')); ?>" method="get" class="search-results__form">
@@ -39,20 +39,20 @@ get_header();
 
     <div class="search-results__header">
         <div class="search-results__title">
-            Alle zoekresultaten voor “<?php echo $default_tag; ?>”
+            Alle zoekresultaten voor “<?php echo $default__tag; ?>”
         </div>
     </div>
 
     <div class="search-results__text">
         <?php
         // Custom WP_Query to get posts with the specified tag for 'blog' and 'event' post types
-        $tag_query = new WP_Query([
-            'tag' => $default_tag,
+        $tag__query = new WP_Query([
+            'tag' => $default__tag,
             'post_type' => ['blog', 'event'],
             'posts_per_page' => -1,
         ]);
 
-        echo $tag_query->found_posts . ' resultaten';
+        echo $tag__query->found_posts . ' resultaten';
         ?>
     </div>
 
@@ -62,7 +62,7 @@ get_header();
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
         // WP_Query for Events
-        $search_args = [
+        $search__args = [
             'post_type' => ['blog', 'event'],
             'posts_per_page' => -1,
             'orderby' => 'date',
@@ -72,97 +72,97 @@ get_header();
                 [
                     'taxonomy' => 'post_tag',
                     'field' => 'name',
-                    'terms' => $default_tag,
+                    'terms' => $default__tag,
                 ],
             ],
         ];
 
-        $search_query = new WP_Query($search_args);
-        if ($search_query->have_posts()) {
+        $search__query = new WP_Query($search__args);
+        if ($search__query->have_posts()) {
             // Create arrays to store post data
-            $blogs_posts_array = [];
-            $events_posts_array = [];
+            $blogs__posts__array = [];
+            $events__posts__array = [];
 
             // Loop through the posts and add data to the arrays
-            while ($search_query->have_posts()) {
-                $search_query->the_post();
+            while ($search__query->have_posts()) {
+                $search__query->the_post();
 
                 // Get the categories for the current post
                 $categories = get_the_category(get_the_ID());
 
                 // Initialize an array to store category names
-                $category_names = [];
+                $category__names = [];
 
                 // Loop through the categories and add names to the array
                 foreach ($categories as $category) {
-                    $category_names[] = $category->name;
+                    $category__names[] = $category->name;
                 }
 
                 // Get tags for the current post
                 $tags = get_the_tags();
-                $tag_names = [];
+                $tag__names = [];
 
                 // Loop through the tags and add names to the array
                 if ($tags) {
                     foreach ($tags as $tag) {
-                        $tag_names[] = $tag->name;
+                        $tag__names[] = $tag->name;
                     }
                 }
 
                 if (has_term('blogs', 'type', get_the_ID())) {
-                    $blog_data = [
+                    $blog__data = [
                         'ID' => get_the_ID(),
                         'post_title' => get_the_title(),
                         'post_content' => get_the_content(),
                         'post_name' => get_post_field('post_name'),
                         'type' => wp_get_post_terms(get_the_ID(), 'type'),
-                        'categories' => $category_names,
-                        'tags' => $tag_names,
+                        'categories' => $category__names,
+                        'tags' => $tag__names,
                         'featured_image' => get_the_post_thumbnail_url(get_the_ID(), 'full'),
                     ];
 
-                    $blogs_posts_array[] = $blog_data;
+                    $blogs__posts__array[] = $blog__data;
                 }
 
                 if (has_term('events', 'type', get_the_ID())) {
-                    $event_date = get_post_meta(get_the_ID(), '_event_date', true);
+                    $event__date = get_post_meta(get_the_ID(), '_event_date', true);
 
-                    $formatted__event__date = date('d-m-Y', strtotime($event_date));
+                    $formatted__event__date = date('d-m-Y', strtotime($event__date));
 
-                    $events_data = [
+                    $events__data = [
                         'ID' => get_the_ID(),
                         'post_title' => get_the_title(),
                         'post_content' => get_the_content(),
                         'post_name' => get_post_field('post_name'),
                         'type' => wp_get_post_terms(get_the_ID(), 'type'),
-                        'categories' => $category_names,
-                        'tags' => $tag_names,
+                        'categories' => $category__names,
+                        'tags' => $tag__names,
                         'date' => $formatted__event__date,
                         'featured_image' => get_the_post_thumbnail_url(get_the_ID(), 'full'),
                     ];
 
-                    $events_posts_array[] = $events_data;
+                    $events__posts__array[] = $events__data;
                 }
             }
 
             // Reset post data to the main query
             wp_reset_postdata();
 
-            $search_posts_array = array_merge($blogs_posts_array, $events_posts_array);
+            $search__posts__array = array_merge($blogs__posts__array, $events__posts__array);
 
             // Convert the array to JSON
-            $json_search_data = json_encode(
-                $search_posts_array,
+            $json__search__data = json_encode(
+                $search__posts__array,
                 JSON_PRETTY_PRINT
             );
 
             // Decode the JSON data
-            $search_posts_data = json_decode($json_search_data, true);
+            $search__posts__data = json_decode($json__search__data, true);
 
             // Check if there are posts
-            if (!empty($search_posts_data)) {
+            if (!empty($search__posts__data)) {
                 // Loop through the posts
-                foreach ($search_posts_data as $search) {
+                foreach ($search__posts__data as $search) {
         ?>
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
