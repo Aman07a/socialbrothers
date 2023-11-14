@@ -1189,13 +1189,24 @@
       height: 24px;
     }
 
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    main {
+      flex: 1;
+    }
+
     /* Footer */
     footer {
       display: flex;
       overflow: hidden;
       background-color: #141414;
       color: #ededed;
-      margin-top: 40px;
+      margin-top: auto;
       width: 100%;
       height: 80px;
     }
