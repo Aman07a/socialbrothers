@@ -612,7 +612,7 @@
 
     .blog-container__header {
       margin-top: 3.6rem;
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
     }
 
     /* w-auto */
@@ -725,6 +725,7 @@
       text-align: left;
       width: 349px;
       height: 72px;
+      overflow: hidden;
     }
 
     .card__form {
@@ -875,7 +876,7 @@
 
     .event-detail__header {
       margin-top: 3.6rem;
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
     }
 
     /* Login */
