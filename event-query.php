@@ -79,7 +79,7 @@ if ($event__query->have_posts()) {
                         <?php echo esc_html($post['post_title']); ?>
                     </p>
                     <p class="card__text">
-                        <?php echo esc_html($post['post_content']); ?>
+                        <?php echo substr(strip_tags($post['post_content']), 0, 200); ?>
                     </p>
                     <form action="<?php echo home_url('event') . '/' . esc_html($post['post_name']); ?>" class="card__form">
                         <button>
