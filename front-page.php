@@ -22,14 +22,14 @@ get_header();
         <h3 class="blog-container__title">De nieuwste blogs</h3>
     </div>
 
-    <div class="row card-container row-gap">
+    <div class="row card-container row__gap">
         <?php
         // WP_Query for Blogs
         $blog_args = [
-            'post_type' => 'blog', // Specify your custom post type here
-            'posts_per_page' => 3, // Display only 3 posts
-            'orderby' => 'date',  // Order by date
-            'order' => 'ASC',  // Order in descending order
+            'post_type' => 'blog',
+            'posts_per_page' => 3,
+            'orderby' => 'date',
+            'order' => 'ASC',
         ];
 
         $blog_query = new WP_Query($blog_args);
@@ -148,7 +148,7 @@ get_header();
     </div>
 
     <!-- Events -->
-    <div class="row card-container row-gap">
+    <div class="row card-container row__gap">
         <?php
         // WP_Query for Events
         $event_args = [
@@ -215,8 +215,6 @@ get_header();
                 $events_posts_array,
                 JSON_PRETTY_PRINT
             );
-
-            // var_dump($json_events_data);
 
             // Decode the JSON data
             $events_posts_data = json_decode($json_events_data, true);

@@ -72,7 +72,7 @@ get_header();
             Gerelateerde blogs
         </h3>
 
-        <div class="row card-container row-gap">
+        <div class="row card-container row__gap">
             <?php
             // Get current page
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

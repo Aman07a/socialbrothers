@@ -41,7 +41,7 @@ get_header();
     </div>
 
     <!-- Events -->
-    <div class="row event-container row-gap">
+    <div class="row event-container row__gap">
         <?php
         // Get current page
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

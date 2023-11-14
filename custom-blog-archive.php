@@ -20,7 +20,7 @@ get_header();
     <!-- Blog -->
     <div class="blog-container__header"></div>
 
-    <div class="row card-container row-gap">
+    <div class="row card-container row__gap">
         <?php
         // Get current page
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

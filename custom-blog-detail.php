@@ -71,7 +71,7 @@ get_header();
             Gerelateerde blogs
         </h3>
 
-        <div class="row card-container row-gap">
+        <div class="row card-container row__gap">
             <div class="col-xl-4 col-lg-6 auto">
                 <div class="card auto">
                     <img src="<?php echo get_template_directory_uri() . '/assets/images/9a4c5e7ca7beb10f9911b04ae5a9019ca806488d.jpg'; ?>" class="card-img-top" alt="">

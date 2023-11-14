@@ -366,11 +366,11 @@
     }
 
     /* Gap Between Elements Rows */
-    .row-gap {
-      row-gap: 6rem;
+    .row__gap {
+      row__gap: 6rem;
     }
 
-    .row-gap:last-child {
+    .row__gap:last-child {
       margin-bottom: 1rem;
     }
 

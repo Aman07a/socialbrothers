@@ -90,7 +90,7 @@ get_header();
                     Eerst volgende evenementen in Utrecht
                 </h3>
 
-                <div class="row card-container row-gap">
+                <div class="row card-container row__gap">
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
                             <img src="<?php echo get_template_directory_uri() . '/assets/images/a921bc847707d8528e4f5e00a324136d69807ae9.jpg'; ?>" class="card-img-top" alt="">
