@@ -104,7 +104,7 @@ get_header();
                             <p class="card__text">
                                 <?php echo esc_html($post['post_content']); ?>
                             </p>
-                            <form action="<?php echo get_home_url() . '/blog/' . esc_html($post['post_name']); ?>" class="card__form">
+                            <form action="<?php echo get_home_url('blog') . '/' . esc_html($post['post_name']); ?>" class="card__form">
                                 <button>
                                     Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                                 </button>
