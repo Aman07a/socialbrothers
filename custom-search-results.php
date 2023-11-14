@@ -186,7 +186,7 @@ get_header();
                             <p class="card__text">
                                 <?php echo esc_html($search['post_content']); ?>
                             </p>
-                            <form action="<?php echo get_home_url() . '/event/' . esc_html($search['post_name']); ?>" class="card__form">
+                            <form action="<?php echo get_home_url() . '/' . esc_html($search['type'][0]['name']) . '/' . esc_html($search['post_name']); ?>" class="card__form">
                                 <button>
                                     Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                                 </button>
