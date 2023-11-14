@@ -184,9 +184,9 @@ get_header();
                                 <?php echo esc_html($search['post_title']); ?>
                             </p>
                             <p class="card__text">
-                                <?php echo esc_html($search['post_content']); ?>
+                                <?php echo substr(strip_tags($search['post_content']), 0, 200); ?>
                             </p>
-                            <form action="<?php echo get_home_url() . '/' . esc_html($search['type'][0]['name']) . '/' . esc_html($search['post_name']); ?>" class="card__form">
+                            <form action="<?php echo get_home_url() . '/' . esc_html(str_replace('s', '', $search['type'][0]['name'])) . '/' . esc_html($search['post_name']); ?>" class="card__form">
                                 <button>
                                     Lees meer <i class="fa-sharp fa-solid fa-arrow-right"></i>
                                 </button>
