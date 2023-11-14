@@ -25,49 +25,49 @@ get_header();
     <div class="row card-container row__gap">
         <?php
         // WP_Query for Blogs
-        $blog_args = [
-            'post_type' => 'blog',
+        $blog__args = [
+            'post_type'      => 'blog',
             'posts_per_page' => 3,
-            'orderby' => 'date',
-            'order' => 'ASC',
+            'orderby'        => 'date',
+            'order'          => 'ASC',
         ];
 
-        $blog_query = new WP_Query($blog_args);
-        if ($blog_query->have_posts()) {
+        $blog__query = new WP_Query($blog__args);
+        if ($blog__query->have_posts()) {
             // Create an array to store post data
             $blogs_posts_array = [];
 
             // Loop through the posts and add data to the array
-            while ($blog_query->have_posts()) {
-                $blog_query->the_post();
+            while ($blog__query->have_posts()) {
+                $blog__query->the_post();
 
                 // Get the categories for the current post
                 $categories = get_the_category(get_the_ID());
 
                 // Initialize an array to store category names
-                $category_names = [];
+                $blog__category__names = [];
 
                 // Loop through the categories and add names to the array
                 foreach ($categories as $category) {
-                    $category_names[] = $category->name;
+                    $blog__category__names[] = $category->name;
                 }
 
                 // Check if the post has any of the specified types
                 if (has_term('blogs', 'type', get_the_ID())) {
-                    $post_data = [
+                    $blog__post__data = [
                         'ID' => get_the_ID(),
                         'post_title' => get_the_title(),
                         'post_content' => get_the_content(),
                         'post_name' => get_post_field('post_name'),
                         'type' => wp_get_post_terms(get_the_ID(), 'type'),
-                        'categories' => $category_names,
+                        'categories' => $blog__category__names,
                         'featured_image' => get_the_post_thumbnail_url(
                             get_the_ID(),
                             'full'
                         ),
                     ];
 
-                    $blogs_posts_array[] = $post_data;
+                    $blogs__posts__array[] = $blog__post__data;
                 }
             }
 
@@ -75,18 +75,18 @@ get_header();
             wp_reset_postdata();
 
             // Convert the array to JSON
-            $json_blogs_data = json_encode(
-                $blogs_posts_array,
+            $json__blogs__data = json_encode(
+                $blogs__posts__array,
                 JSON_PRETTY_PRINT
             );
 
             // Decode the JSON data
-            $blogs_posts_data = json_decode($json_blogs_data, true);
+            $blogs__posts__data = json_decode($json__blogs__data, true);
 
             // Check if there are posts
-            if (!empty($blogs_posts_data)) {
+            if (!empty($blogs__posts__data)) {
                 // Loop through the posts
-                foreach ($blogs_posts_data as $post) {
+                foreach ($blogs__posts__data as $post) {
         ?>
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
@@ -125,22 +125,22 @@ get_header();
         </div>
 
         <?php
-        $default_category_event = isset($_GET['events']) ? sanitize_text_field($_GET['events']) : 'utrecht';
+        $default__category__event = isset($_GET['events']) ? sanitize_text_field($_GET['events']) : 'utrecht';
         ?>
 
         <form action="<?php echo esc_url(home_url()); ?>" method="get" class="filter">
-            <div class="event-filter__form <?php echo ($default_category_event === 'utrecht') ? 'event-filter--selected' : ''; ?>">
-                <button class="event-filter__button <?php echo ($default_category_event === 'utrecht') ? 'event-button--selected' : ''; ?>" name="events" value="utrecht">
+            <div class="event-filter__form <?php echo ($default__category__event === 'utrecht') ? 'event-filter--selected' : ''; ?>">
+                <button class="event-filter__button <?php echo ($default__category__event === 'utrecht') ? 'event-button--selected' : ''; ?>" name="events" value="utrecht">
                     events utrecht
                 </button>
             </div>
-            <div class="event-filter__form <?php echo ($default_category_event === 'rotterdam') ? 'event-filter--selected' : ''; ?>">
-                <button class="event-filter__button <?php echo ($default_category_event === 'rotterdam') ? 'event-button--selected' : ''; ?>" name="events" value="rotterdam">
+            <div class="event-filter__form <?php echo ($default__category__event === 'rotterdam') ? 'event-filter--selected' : ''; ?>">
+                <button class="event-filter__button <?php echo ($default__category__event === 'rotterdam') ? 'event-button--selected' : ''; ?>" name="events" value="rotterdam">
                     events rotterdam
                 </button>
             </div>
-            <div class="event-filter__form <?php echo ($default_category_event === 'leiden') ? 'event-filter--selected' : ''; ?>">
-                <button class="event-filter__button <?php echo ($default_category_event === 'leiden') ? 'event-button--selected' : ''; ?>" name="events" value="leiden">
+            <div class="event-filter__form <?php echo ($default__category__event === 'leiden') ? 'event-filter--selected' : ''; ?>">
+                <button class="event-filter__button <?php echo ($default__category__event === 'leiden') ? 'event-button--selected' : ''; ?>" name="events" value="leiden">
                     events leiden
                 </button>
             </div>
@@ -160,50 +160,50 @@ get_header();
                 [
                     'taxonomy' => 'category',
                     'field' => 'name',
-                    'terms' => $default_category_event,
+                    'terms' => $default__category__event,
                 ],
             ],
         ];
 
-        $event_query = new WP_Query($event_args);
-        if ($event_query->have_posts()) {
+        $event__query = new WP_Query($event_args);
+        if ($event__query->have_posts()) {
             // Create an array to store post data
-            $events_posts_array = [];
+            $events__posts__array = [];
 
             // Loop through the posts and add data to the array
-            while ($event_query->have_posts()) {
-                $event_query->the_post();
+            while ($event__query->have_posts()) {
+                $event__query->the_post();
 
                 // Get the categories for the current post
                 $categories = get_the_category(get_the_ID());
 
                 // Initialize an array to store category names
-                $category_names = [];
+                $event_category_names = [];
 
                 // Loop through the categories and add names to the array
                 foreach ($categories as $category) {
-                    $category_names[] = $category->name;
+                    $event_category_names[] = $category->name;
                 }
 
                 // Check if the post has any of the specified types
                 if (has_term('events', 'type', get_the_ID())) {
-                    $event_date = get_post_meta(get_the_ID(), '_event_date', true);
+                    $event__date = get_post_meta(get_the_ID(), '_event_date', true);
 
-                    $post_data = [
+                    $event__post__data = [
                         'ID' => get_the_ID(),
                         'post_title' => get_the_title(),
                         'post_content' => get_the_content(),
                         'post_name' => get_post_field('post_name'),
                         'type' => wp_get_post_terms(get_the_ID(), 'type'),
-                        'categories' => $category_names,
-                        'date' => $event_date,
+                        'categories' => $event_category_names,
+                        'date' => $event__date,
                         'featured_image' => get_the_post_thumbnail_url(
                             get_the_ID(),
                             'full'
                         ),
                     ];
 
-                    $events_posts_array[] = $post_data;
+                    $events__posts__array[] = $event__post__data;
                 }
             }
 
@@ -211,18 +211,18 @@ get_header();
             wp_reset_postdata();
 
             // Convert the array to JSON
-            $json_events_data = json_encode(
-                $events_posts_array,
+            $json__events__data = json_encode(
+                $events__posts__array,
                 JSON_PRETTY_PRINT
             );
 
             // Decode the JSON data
-            $events_posts_data = json_decode($json_events_data, true);
+            $events__posts__data = json_decode($json__events__data, true);
 
             // Check if there are posts
-            if (!empty($events_posts_data)) {
+            if (!empty($events__posts__data)) {
                 // Loop through the posts
-                foreach ($events_posts_data as $post) {
+                foreach ($events__posts__data as $post) {
         ?>
                     <div class="col-xl-4 col-lg-6 auto">
                         <div class="card auto">
