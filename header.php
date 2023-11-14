@@ -367,7 +367,7 @@
 
     /* Gap Between Elements Rows */
     .row__gap {
-      row__gap: 6rem;
+      gap: 6rem;
     }
 
     .row__gap:last-child {
