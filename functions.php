@@ -188,6 +188,7 @@ add_theme_support('menus');
 register_nav_menus(array(
     'top-menu' => __('Top Menu', 'theme')
 ));
+
 function add_class_li($classes, $item, $args)
 {
     if (isset($args->li_class)) {
@@ -196,6 +197,7 @@ function add_class_li($classes, $item, $args)
     return $classes;
 }
 add_filter('nav_menu_css_class', 'add_class_li', 10, 3);
+
 function add_anchor_class($attr, $item, $args)
 {
     if (isset($args->a_class)) {
